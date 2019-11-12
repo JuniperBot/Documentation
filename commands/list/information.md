@@ -6,7 +6,7 @@ This command is your best friend. Use it to get list of all available commands.
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !help [group]
 ```
 {% endtab %}
@@ -39,7 +39,7 @@ Returns some useful information about bot.
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !info
 ```
 {% endtab %}
@@ -68,7 +68,7 @@ Returns some bot's usage statistics.
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !stats
 ```
 {% endtab %}
@@ -96,7 +96,7 @@ Returns useful information about current server.
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !serverinfo
 ```
 {% endtab %}
@@ -126,7 +126,7 @@ Returns some useful information about you or specified member.
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !user [@member]
 ```
 {% endtab %}
@@ -162,7 +162,7 @@ Use this command to show or set up your own information about yourself, which wi
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !bio [text]
 ```
 {% endtab %}
@@ -193,7 +193,7 @@ Returns some useful information about invite link.
 
 {% tabs %}
 {% tab title="Usage" %}
-```
+```text
 !inviteinfo <invite>
 ```
 {% endtab %}

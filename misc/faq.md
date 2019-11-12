@@ -21,7 +21,7 @@ Just counter, karma or reputation system. To increment that counter of any membe
 
  [Patrons](https://juniper.bot/donate) can do that using `!play` command with playlist link specified.
 
-```
+```text
 !play https://juniper.bot/playlist/99eb328f-d970-4265-ae6f-07c1d7ac8682
 ```
 
