@@ -2,17 +2,17 @@
 
 * [Home](README.md)
 
-## Commands
+## Commands <a id="cmd"></a>
 
-* [Invoking commands](commands/invoking.md)
-* [Command list](commands/list/README.md)
-  * [Information](commands/list/information.md)
-  * [Moderation](commands/list/moderation.md)
-  * [Ranking](commands/list/ranking.md)
-  * [Music](commands/list/music.md)
-  * [Forest fuss](commands/list/forest-fuss.md)
-  * [Fun](commands/list/fun.md)
-  * [Utility](commands/list/utility.md)
+* [Invoking commands](cmd/invoking.md)
+* [Command list](cmd/list/README.md)
+  * [Information](cmd/list/information.md)
+  * [Moderation](cmd/list/moderation.md)
+  * [Ranking](cmd/list/ranking.md)
+  * [Music](cmd/list/music.md)
+  * [Forest fuss](cmd/list/forest-fuss.md)
+  * [Fun](cmd/list/fun.md)
+  * [Utility](cmd/list/utility.md)
 
 ## Misc
 

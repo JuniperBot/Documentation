@@ -2,7 +2,7 @@
 
 ## Experience gaining and calculation
 
-Each time member sends message he will gain random number of EXP from 15 to 25 once per munite. Use command [rank](../commands/list/ranking.md#rank) to check your or member's progress.
+Each time member sends message he will gain random number of EXP from 15 to 25 once per munite. Use command [rank](../cmd/list/ranking.md#rank) to check your or member's progress.
 
 Experience for each level calculating using this formula:
 
