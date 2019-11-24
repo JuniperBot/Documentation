@@ -2,17 +2,17 @@
 
 * [Главная](README.md)
 
-## Команды <a id="commands"></a>
+## Команды <a id="cmd"></a>
 
-* [Вызов команд](commands/invoke.md)
-* [Список команд](commands/list/README.md)
-  * [Информация](commands/list/information.md)
-  * [Модерирование](commands/list/moderation.md)
-  * [Рейтинг](commands/list/ranking.md)
-  * [Музыка](commands/list/music.md)
-  * [Лесная возня](commands/list/forest-fuss.md)
-  * [Весёлое](commands/list/fun.md)
-  * [Утилиты](commands/list/utility.md)
+* [Вызов команд](cmd/invoke.md)
+* [Список команд](cmd/list/README.md)
+  * [Информация](cmd/list/information.md)
+  * [Модерирование](cmd/list/moderation.md)
+  * [Рейтинг](cmd/list/ranking.md)
+  * [Музыка](cmd/list/music.md)
+  * [Лесная возня](cmd/list/forest-fuss.md)
+  * [Весёлое](cmd/list/fun.md)
+  * [Утилиты](cmd/list/utility.md)
 
 ## Прочее <a id="misc"></a>
 
