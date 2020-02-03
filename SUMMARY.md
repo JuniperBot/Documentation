@@ -13,6 +13,11 @@
   * [Лесная возня](cmd/list/forest-fuss.md)
   * [Весёлое](cmd/list/fun.md)
   * [Утилиты](cmd/list/utility.md)
+* [Пользовательские команды](cmd/custom/README.md)
+  * [Создание простой команды](cmd/custom/simple-command.md)
+  * [Сообщение](cmd/custom/message.md)
+  * [Перенаправление](cmd/custom/alias.md)
+  * [Изменение ролей](cmd/custom/roles-changing.md)
 
 ## Прочее <a id="misc"></a>
 
