@@ -8,9 +8,9 @@
 
 Таким образом, если вы хотите получить дату создания сервера без времени, у Вас в итоге получится переменная`{server.createdAt.shortDate}`.
 
-### Участник, Сервер, Канал
+### Участник, Сервер, Канал, Сообщение
 
-Эти типы данных уже описаны в виде непосредственно переменных [Участника](template-variables.md#uchastnik), [Сервера ](template-variables.md#server)and [Канала](template-variables.md#kanal), просто используйте описанные там свойства.
+Эти типы данных уже описаны в виде непосредственно переменных [Участника](template-variables.md#uchastnik), [Сервера](template-variables.md#server), [Канала](template-variables.md#kanal), и [Сообщения](template-variables.md#message), просто используйте описанные там свойства.
 
 ### ДатаВремя
 
