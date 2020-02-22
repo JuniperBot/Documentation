@@ -41,7 +41,7 @@ description: >-
 | Переменная | Тип | Описание |
 | :--- | :--- | :--- |
 | `{server}` | Строка | Имя сервера |
-| `{server.owner}` | [Участник](template-variables.md#uchastnik) | Владелец сервера |
+| `{server.owner}` | [Участник](./#uchastnik) | Владелец сервера |
 | `{server.id}` | Число | Уникальный идентификатор сервера |
 | `{server.name}` | Строка | Имя сервера |
 | `{server.iconUrl}` | Строка | Ссылка на иконку сервера |
@@ -77,8 +77,8 @@ description: >-
 | `{message.contentDisplay}` | Строка | Содержимое сообщения, где все коды каналов, эмоций и упоминаний заменены их наименованиями |
 | `{message.contentStripped}` | Строка | Содержимое сообщения как `contentDisplay`, но дополнительно еще и без какого-либо форматирования |
 | `{message.jumpUrl}` | Строка | Ссылка быстрого перехода на это сообщение |
-| `{message.channel}` | [Канал](template-variables.md#kanal) | Канал, в котором опубликовано это сообщение |
-| `{message.author}` | [Участник](template-variables.md#uchastnik) | Автор этого сообщения |
+| `{message.channel}` | [Канал](./#kanal) | Канал, в котором опубликовано это сообщение |
+| `{message.author}` | [Участник](./#uchastnik) | Автор этого сообщения |
 | `{message.createdAt}` | [ДатаВремя](data-types.md#datavremya) | Дата и время создания сообщения |
 
 ## Рейтинг участников
@@ -88,7 +88,7 @@ description: >-
 | Переменная | Тип | Описание |
 | :--- | :--- | :--- |
 | `{level}` | Число | Новый уровень участника |
-| `{message}` | [Сообщение](template-variables.md#message) | Сообщение, вызвавшее повышение уровня участника |
+| `{message}` | [Сообщение](./#message) | Сообщение, вызвавшее повышение уровня участника |
 
 ## Пользовательские команды
 
@@ -138,7 +138,7 @@ description: >-
     <tr>
       <td style="text-align:left"><code>{message}</code>
       </td>
-      <td style="text-align:left"><a href="template-variables.md#message">&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;</a>
+      <td style="text-align:left"><a href="./#message">&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;</a>
       </td>
       <td style="text-align:left">&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x441;
         &#x432;&#x44B;&#x437;&#x43E;&#x432;&#x43E;&#x43C; &#x44D;&#x442;&#x43E;&#x439;

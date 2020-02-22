@@ -19,11 +19,21 @@
   * [Перенаправление](cmd/custom/alias.md)
   * [Изменение ролей](cmd/custom/roles-changing.md)
 
+## Возможности <a id="features"></a>
+
+* [Автомодерация](features/automoderation/README.md)
+  * [Ссылки](features/automoderation/links.md)
+  * [Плохие слова](features/automoderation/bad-words.md)
+  * [Повторяемый текст](features/automoderation/flood.md)
+  * [Caps Lock](features/automoderation/caps-lock.md)
+  * [Эмоции](features/automoderation/emotes.md)
+  * [Упоминания](features/automoderation/mentions.md)
+* [Переменные шаблонов](features/template-variables/README.md)
+  * [Типы данных](features/template-variables/data-types.md)
+
 ## Прочее <a id="misc"></a>
 
 * [Часто задаваемые вопросы](misc/faq.md)
 * [Опыт в рейтинге](misc/ranking-exp.md)
-* [Переменные шаблонов](misc/template-variables.md)
-* [Типы данных](misc/data-types.md)
 * [Радиостанции](misc/radio-stations.md)
 
