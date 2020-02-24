@@ -36,4 +36,5 @@
 * [Часто задаваемые вопросы](misc/faq.md)
 * [Опыт в рейтинге](misc/ranking-exp.md)
 * [Радиостанции](misc/radio-stations.md)
+* [Список изменений](misc/changelog.md)
 
