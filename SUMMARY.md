@@ -16,12 +16,13 @@
 
 ## Features
 
-* [Template variables](features/template-variables/README.md)
-  * [Data Types](features/template-variables/data-types.md)
+* [Template variables](misc/template-variables.md)
+  * [Data Types](misc/data-types.md)
 
 ## Misc
 
 * [Frequently Asked Questions](misc/faq.md)
 * [Ranking experience](misc/ranking-exp.md)
 * [Radio-stations](misc/radio-stations.md)
+* [Changelog](misc/changelog.md)
 
