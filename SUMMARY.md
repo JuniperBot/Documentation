@@ -14,11 +14,14 @@
   * [Fun](cmd/list/fun.md)
   * [Utility](cmd/list/utility.md)
 
+## Features
+
+* [Template variables](features/template-variables/README.md)
+  * [Data Types](features/template-variables/data-types.md)
+
 ## Misc
 
 * [Frequently Asked Questions](misc/faq.md)
 * [Ranking experience](misc/ranking-exp.md)
-* [Template variables](misc/template-variables.md)
-* [Data Types](misc/data-types.md)
 * [Radio-stations](misc/radio-stations.md)
 

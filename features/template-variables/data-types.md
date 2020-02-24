@@ -10,7 +10,7 @@ So, if you want to get only server creation date, you must use the `{server.crea
 
 ### Member, Server, Channel
 
-They are already described as [Member](template-variables.md#member), [Server ](template-variables.md#server)and [Channel ](template-variables.md#channel)variable sets, just replace their root keys with corresponding property name.
+They are already described as [Member](./#member), [Server ](./#server)and [Channel ](./#channel)variable sets, just replace their root keys with corresponding property name.
 
 ### DateTime
 

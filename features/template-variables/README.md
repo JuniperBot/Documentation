@@ -41,7 +41,7 @@ Variables set returning some useful info about your server.
 | Variable | Type | Description |
 | :--- | :--- | :--- |
 | `{server}` | String | Server's name |
-| `{server.owner}` | [Member](template-variables.md#member) | Server's owner |
+| `{server.owner}` | [Member](./#member) | Server's owner |
 | `{server.id}` | Number | Server's unique identifier |
 | `{server.name}` | String | Server's name |
 | `{server.iconUrl}` | String | Server's icon URL |
