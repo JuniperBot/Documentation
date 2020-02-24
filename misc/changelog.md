@@ -1,5 +1,5 @@
 ---
-description: The latest JuniperBot changes are described here
+description: The latest JuniperBot changes are described here.
 ---
 
 # Changelog
