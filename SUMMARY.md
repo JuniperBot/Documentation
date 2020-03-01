@@ -16,8 +16,8 @@
 
 ## Features
 
-* [Template variables](misc/template-variables.md)
-  * [Data Types](misc/data-types.md)
+* [Template variables](features/template-variables/README.md)
+  * [Data Types](features/template-variables/data-types.md)
 
 ## Misc
 

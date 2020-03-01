@@ -4,6 +4,28 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.3
+
+* Auto-moderation improvements:
+  * Fixed an issue with flood detection not worked properly;
+* Some small fixes and improvements.
+
+### Version 8.2
+
+* **\[Donate\]** Rank card customization:
+  * Configure colors of background, fonts, level progress line, shadows;
+  * Upload your own background image;
+* New template variable `{message.mentions}` you can use to get message mentions info:
+  * Amount of mentioned members in message: `{message.mentions}`;
+  * Get mentioned member by his number of occurrence in message `{message.mentions.1}`;
+* Auto-moderation improvements:
+  * Fixed an issue when sending pictures was triggered by flood filter;
+  * Ban and kick in filter restraints;
+* Fixed an issues with link parsers for vk.com;
+* Fixed an issue when member lost access to channel with direct permission configured for him if he was unmuted there;
+* Discord's audit ban reason now contains moderator banned him;
+* Some small fixes and improvements.
+
 ### Version 8.1
 
 * Auto-moderation fixes and improvements:
