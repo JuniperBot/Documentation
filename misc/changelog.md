@@ -4,6 +4,15 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.4
+
+* **\[Donate\]** Now you can customize default ranking card of your whole guild;
+* Now you can view full list of custom commands with their descriptions using `help custom/хелп польз`;
+* `leaders/лидеры` command now supports pagination;
+* White list option of invite codes has been added to links filter;
+* Now member will disappear from ranking list if his ranking got reset \(manually or if he left guild\);
+* Some small fixes and improvements.
+
 ### Version 8.3
 
 * Auto-moderation improvements:
