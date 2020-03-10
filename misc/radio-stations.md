@@ -9,7 +9,7 @@ If you want to see your favourite radio station here, you can ask for it at our 
 {% endhint %}
 
 {% hint style="warning" %}
-Aavailability of these radio stations is not guaranteed and depends only on the radio stations themselves.
+Availability of these radio stations is not guaranteed and depends only on the radio stations themselves.
 {% endhint %}
 
 ## Radio Record
