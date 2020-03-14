@@ -4,6 +4,21 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.5
+
+* **\[web\]** Website improvements:
+  * Colors reset button has been added to rank card;
+  * Website navigation and footer has been updated \(language change and useful links\);
+  * Added a "Terms of Service" section: [https://juniper.bot/terms](https://juniper.bot/terms);
+  * Added a "Privacy Policy" section: [https://juniper.bot/privacy](https://juniper.bot/privacy);
+  * Now all tabs of dashboard have their own links;
+  * Delayed message removing option has been added to all message templates;
+* Fixed an issue when capslock filter triggered on some mentions or emoji names;
+* Fixed an issue when warning didn't flushed on reaching maximum level of warning infractions;
+* Starting roles will not be assigned if roles restore on rejoin was enabled and there is any role to restore;
+* Updated `warns/преды` to support pagination;
+* Some small fixes and improvements.
+
 ### Version 8.4
 
 * **\[Donate\]** Now you can customize default ranking card of your whole guild;
