@@ -4,6 +4,21 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.6
+
+* **\[Moderation\]** Moderation system improvements:
+  * Now you don't have to mention member to remove his warnings, just use case number instead;
+  * Added a new command `temprole/времроль` can be used to give roles temporary;
+  * Added a new command `resetwarns/сброспред`can be used to reset all warnings on server or just for @mentioned member;
+* **\[Audit\]** Added a new action type for roles changing logging;
+* **\[web\]** Dark Theme has been implemented \(you can turn it on/off using button at site footer\);
+* **\[web\]** Commands search has been implemented;
+* Added a new command `emote/эмоция` can be used to get detailed information about emote, emoji or characters;
+* Remind message and result of `!t` command now implemented as embed messages;
+* Fixed an issue when new members getting reward role for level 0;
+* Fixed an issue when some youtube subscriptions weren't listed in search results ;
+* Some small fixes and improvements.
+
 ### Version 8.5
 
 * **\[web\]** Website improvements:
