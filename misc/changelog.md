@@ -4,6 +4,23 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.7
+
+* Custom commands improvements:
+  * Reserved command names restriction has been removed;
+  * Command names now can contain any characters except spaces;
+  * Improved `{content}` variable, now it supports arguments range:
+    * `{content:2..5}` - inserts arguments from second to fifth;
+    * `{content:2..}` - inserts second and all following arguments;
+    * `{content:..5}` - inserts arguments from first to fifth;
+* Fixed an issue when key words of commands `color/цвет` and `remind/напомни` were localized by interface language;
+* Fixed an issue when unused color roles didn't deleted;
+* Fixed an issue when bot didn't stopped the playback if he was removed from channel manually;
+* Any duration command now supports minutes as `m`/`м`;
+* Success message of temporary role granting will not be removed now;
+* New command `covid/ковид` with information about world COVID-19 situation;
+* Some small fixes and improvements.
+
 ### Version 8.6
 
 * **\[Moderation\]** Moderation system improvements:
