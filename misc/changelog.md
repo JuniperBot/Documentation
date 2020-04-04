@@ -4,6 +4,17 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.8
+
+* **\[donate\]** Reaction roles improvements:
+  * Now you can add multiple roles per one reaction;
+  * New you can enable singular mode allowing to select roles of only one last selected reaction removing all previous;
+* Fixed an issue when JB-MUTED role has been force created by `unmute` command;
+* Fixed an issue when bot deleted all user's messages who was unmuted manually by removing channel's permission override;
+* Fixed an issue when Mole of forest fuss was able to check multiple players at once;
+* Fixed an issues with music playback;
+* Some small fixes and improvements.
+
 ### Version 8.7
 
 * Custom commands improvements:
