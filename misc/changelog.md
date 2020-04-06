@@ -4,6 +4,13 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 8.9
+
+* Fixed an issue when non-default accent color of messages not worked at custom commands, they had default orange;
+* **\[Audit\]** Improved audit forwarding settings, now you can specify individual channel per each action type;
+* Fixed an issues with performance on some shards;
+* Some small fixes and improvements.
+
 ### Version 8.8
 
 * **\[donate\]** Reaction roles improvements:
