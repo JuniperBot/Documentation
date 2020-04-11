@@ -37,7 +37,7 @@
   * [Теги](features/template-engine/tags.md)
   * [Функции](features/template-engine/functions.md)
   * [Типы данных](features/template-engine/types.md)
-  * [Входные данные](features/template-engine/input.md)
+  * [Настройка шаблона](features/template-engine/setup.md)
   * [Полезные примеры](features/template-engine/examples.md)
 
 ## Прочее <a id="misc"></a>
