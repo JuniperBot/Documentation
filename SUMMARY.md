@@ -34,7 +34,7 @@
   * [Синтаксис](features/template-engine/syntax/README.md)
     * [Островки кода](features/template-engine/syntax/code-islands.md)
     * [Выражения](features/template-engine/syntax/expressions.md)
-    * [Конвертация типов](features/template-engine/syntax/converts.md)
+    * [Конвертация типов](features/template-engine/syntax/type-convert.md)
   * [Теги](features/template-engine/tags.md)
   * [Функции](features/template-engine/functions.md)
   * [Типы данных](features/template-engine/types.md)
