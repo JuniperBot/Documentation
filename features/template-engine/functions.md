@@ -148,243 +148,220 @@ description: Описание всех доступных функций
 
 Предыдущий пример распечатает `Hello world`.
 
+### `split`
 
+Данная функция ожидает два аргумента. Используя второй аргумент как разделитель, она разбивает первый аргумент-строку в список.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### `batch`
-
-The batch function splits a given list in equally sized groups of items. It expects two or three arguments. A list as first argument, note that a list in Jtwig is a configurable concept as mentioned previously, whereby the `CollectionConverter` defined in the configuration will be used, it depends on the converter defined in the environment. The second argument is the group size. There is also an optional third argument used as padding, that is, if the last group is incomplete, the third argument will be used to fill it.
-
-```text
-{{ batch([1,2,3], 2) }}
+```csharp
+{{ split('juniper-bot', '-') }}
 ```
 
-The previous example will output `[[1, 2], [3]]`.
+Предыдущий пример распечатает `[juniper, bot]`.
 
-```text
-{{ batch([1,2,3], 2, 0) }}
-```
+### `title`
 
-The previous example, now with the padding argument, will output `[[1, 2], [3, 0]]`.
+Эта функция преобразует каждое слово входной строки так, что оно будет начинаться с заглавной буквы.
 
-#### `block`
-
-Block function can be used to output the content of a defined block tag \(check [block tag definition](http://jtwig.org/documentation/reference/tags/modular/block)\).
-
-```text
-{% block one %}Hello{% block %}{{ block('one') }}
-```
-
-The previous example will print `HelloHello`.
-
-#### \`\`
-
-#### `concat` or `concatenate`
-
-This function allows one to concatenate a set of strings. It is expecting an arbitrary number of arguments \(varargs\).
-
-```text
-{{ concat('1', '+', '1', '=', '2') }}
-```
-
-Under the wood it uses the defined `StringConverter` to convert individual objects to a string representation and then concatenating them. The previous example will output `1+1=2`.
-
-#### `constant`
-
-The constant function comes with two possible outputs depending on the number of arguments supplied. If one argument is supplied, it will return the value of the constant. If two arguments are provided, then it will compare the constant value against the second argument.
-
-```text
-{{ constant("org.jtwig.example.TestClass.CONSTANT_NAME") }}
-```
-
-As shown in the above example, the expression will print the result of evaluating \(using reflection\) the constant with name `CONSTANT_NAME` defined in class `org.jtwig.example.TestClass`. Note that the evaluation will only work if the constant is public.
-
-```text
-{{ constant("org.jtwig.example.TestClass.CONSTANT_NAME", "value") }}
-```
-
-The above example will return a Boolean expression. It will be `true` if the constant value is equal to `"value"`.
-
-#### `default`
-
-The default function is expecting two arguments. It returns the second argument if the first argument is either `null` or `Undefined`.
-
-```text
-{{ default(null, 'Hello') }} {{ default(undefinedVariable, 'World') }}
-```
-
-if variable `undefinedVariable` is not defined in the provided `JtwigModel` then the previous example will produce `Hello World`.
-
-#### `first`
-
-The first function returns the first element of a collection or String. If the argument provided is not a collection or a String, it will just return the input argument.
-
-```text
-{{ first([1, 2]) }}
-```
-
-If the given argument is an empty list or String, then it returns `Undefined`. Note that this function uses the `CollectionConverter` mechanism. The previous template will output `1`.
-
-\`\`
-
-#### `join`
-
-The `join` function provides functionality somehow similar to the `concat` function, however they have some differences. To start with, `join` takes only one or two arguments, where the first argument is expected to be a list and the second, optional, argument a string to be used as the separator.
-
-```text
-{{ join([1, null, 2], ', ') }}
-```
-
-The previous example will print `1, 2`. Note that, `join` function ignores `null` values.
-
-#### `keys`
-
-Keys function can be used to expose the collection of keys for a given collection. It uses the configured `CollectionConverter` \(for more details check the Environment documentation\).
-
-```text
-{{ keys(['A', 'B']) }}
-```
-
-The previous example, as per the default configuration, will print `[1, 2]`.
-
-#### `last`
-
-The last function returns the last element of a collection or String. If the argument provided is not a collection or a String, it will just return the input argument.
-
-```text
-{{ last([1, 2]) }}
-```
-
-If the given argument is an empty list or String, then it returns `Undefined`. Note that this function uses the `CollectionConverter` mechanism \(check `Environment` documentation for more information\). The previous template will output `2`.
-
-#### `length`
-
-The length function returns the length of a given collection or String. If neither a collection or String is provided then it returns `0` for both `null` and `Undefined`, otherwise `1` will be the result.
-
-```text
-{{ length([1, 2]) }}
-```
-
-```text
-{{ length(null) }}
-```
-
-```text
-{{ length(9) }}
-```
-
-The previous examples will print respectively `2`, `0` and `1`. Note that this function uses the defined `CollectionConverter` configured, for more information visit the `Environment` documentation.
-
-#### \`\`
-
-#### `merge`
-
-The `merge` function allows one to merge an arbitrary number of lists together by the given order. This function requires at least two arguments to run. It also supports singular elements as arguments.
-
-```text
-{{ merge(1, 2, 3) }}
-```
-
-```text
-{{ merge([1, 2], 3) }}
-```
-
-The previous two examples return the same output, which is, `[1, 2, 3]`. Note that, this function uses the `CollectionConverter` defined by the Jtwig configuration.
-
-#### \`\`
-
-#### `reverse`
-
-Reverse function reverses the order of the elements in a given collection or String. If no collection neither String is provided then it returns the given argument.
-
-```text
-{{ reverse([1, 2]) }}
-```
-
-The previous example will print `[2, 1]`. Note that this function uses the defined `CollectionConverter` configured, for more information visit the `Environment` documentation.
-
-#### \`\`
-
-#### `slice`
-
-This function is expecting three arguments, where the first argument can either be a String or a collection \(it uses `CollectionConverter` under the wood\), and an integer as second and third arguments.
-
-```text
-{{ slice("123", 1, 1) }}
-```
-
-```text
-{{ slice([1, 2, 3], 0, 2) }}
-```
-
-The second argument is the index position the slice will start from \(inclusive\), where the third argument is the length of the slice. As shown in the previous two examples, the result will be `"2"` and `[1, 2]` respectively. Note that, slice is smart enough to handle boudary cases, for exaple:
-
-```text
-{{ slice("123", 2, 3) }}
-```
-
-```text
-{{ slice("123", 5, 1) }}
-```
-
-The previous examples will still return a slice, depending on the number of characters or items provided in the first argument, the previous examples would then resolve the slice to `"3"` and `""`.
-
-#### `sort`
-
-Sort can be used to sort elements of a given collection in ascending order. It is based on the underlying core Java `java.lang.Comparable` interface, which elements should implement.
-
-```text
-{{ sort([1, 3, 2]) }}
-```
-
-The previous example will produce `[1, 2, 3]`.
-
-#### `split`
-
-This function expects two arguments, using the second argument provided to split the first one into a collection. Such arguments are converted to String using the `StringConverter` configured in the `Environment` as detailed previously.
-
-```text
-{{ split('jtwig-2', '-') }}
-```
-
-The previous example will return `[jtwig, 2]`.
-
-#### \`\`
-
-#### `title`
-
-The title function is expecting one String argument, capitalizing the first letter of all words present in it.
-
-```text
+```csharp
 {{ title('hello world') }}
 ```
 
-The previous example will produce `Hello World`. Note that this function uses `StringConverter` to convert the arguments to a String, check `Environment` documentation for further information.
+Предыдущий пример распечатает `Hello World`.
 
-#### `trim`
+### `trim`
 
-Similar to the Java sibling `String::trim`, the trim function in Jtwig removes any whitespace characters from the beginning and/or ending of the given argument.
+Эта функция избавит входную строку от пробелов в начале и в конце этой строки.
 
-```text
+```csharp
 {{ trim('  Hello World  ') }}
 ```
 
-The previous example will produce `Hello World`. Note that this function uses `StringConverter` to convert the arguments to a String, check `Environment` documentation for further information.
+Предыдущий пример распечатает `Hello World` без пробелов.
 
-#### \`\`
+## Смешанные функции
 
-#### \`\`
+### `random`
+
+Эта функция возвращает произвольный элемент из переданного списка или произвольное число из указанного диапазона.
+
+```csharp
+{{ random(['раз', 'два', 'три']) }}
+```
+
+Предыдущий пример распечатает один из элементов `раз`, `два` или `три` случайно.
+
+```csharp
+{{ random(10, 20) }}
+```
+
+Предыдущий пример распечатает случайное число от 10 до 20.
+
+### `first`
+
+Эта функция вернет первый элемент указанного списка или первый символ строки. 
+
+Если переданный аргумент не список и не строка, функция просто вернет этот аргумент. 
+
+Если указанный аргумент - пустой список или строка, тогда функция возвращает `Undefined`. 
+
+```csharp
+{{ first([1, 2]) }}
+```
+
+Предыдущий пример распечатает `1`.
+
+### `last`
+
+Эта функция вернет последний элемент указанного списка или последний символ строки.
+
+Если переданный аргумент не список и не строка, функция просто вернет этот аргумент. 
+
+Если указанный аргумент - пустой список или строка, тогда функция возвращает `Undefined`. 
+
+```csharp
+{{ last([1, 2]) }}
+```
+
+Предыдущий пример распечатает `2`.
+
+### `reverse`
+
+Эта функция возвращает перевернутый в обратном порядке список или строку.
+
+Если переданный аргумент не список и не строка, функция просто вернет этот аргумент. 
+
+```csharp
+{{ reverse([1, 2]) }}
+```
+
+Предыдущий пример распечатает`[2, 1]`.
+
+### `default`
+
+Эта функция ожидает два аргумента. Она возвращает второй аргумент, если первый `null` или `Undefined`.
+
+```css
+{{ default(null, 'Hello') }} {{ default(undefinedVariable, 'World') }}
+```
+
+Предыдущий пример распечатает `Hello World`, поскольку переменная `undefinedVariable` не объявлена.
+
+### `length`
+
+Эта функция возвращает размер указанного списка или длину указанной строки. Если аргумент не является строкой или списком, она возвращает`0` для `null` и `Undefined`, для остальных случаев `1`.
+
+```csharp
+{{ length([1, 2]) }}
+{{ length(null) }}
+{{ length(9) }}
+```
+
+Предыдущий пример распечатает `2`, `0` и `1` соответственно.
+
+## Списки и карты
+
+### `batch`
+
+Эта функция разделяет переданный список на равные группы списков. Она ожидает два или три аргумента:
+
+* Первый аргумент - сам список;
+* Второй аргумент - размер группы, на которые будет поделен этот список;
+* Значение отступа, которым будет заполнена последняя группа, если элементов списка не хватило \(опционально\);
+
+```csharp
+{{ batch([1,2,3], 2) }}
+```
+
+Предыдущий пример распечатает `[[1, 2], [3]]`.
+
+```csharp
+{{ batch([1,2,3], 2, 0) }}
+```
+
+Предыдущий пример со значением отступа распечатает `[[1, 2], [3, 0]]`.
+
+### `concat` or `concatenate`
+
+Эта функция объединит множество строк в одну строку.
+
+```csharp
+{{ concat('1', '+', '1', '=', '2') }}
+```
+
+Предыдущий пример распечатает `1+1=2`.
+
+### `join`
+
+Эта функция похоже на `concat`, но объединяет элементы переданного списка в одну строку через разделитель. Функция принимает один или два аргумента. Первый аргумент — сам список, а второй — разделитель, которым нужно объединить элементы этого списка в строку. Если второй аргумент не указан, используется `,`  в качестве разделителя \(запятая с пробелом\).
+
+```c
+{{ join([1, null, 2], '|') }}
+```
+
+Предыдущий пример распечатает `1|2`. Обратите внимание, что функция игнорирует значение `null`.
+
+### `keys`
+
+Эта функция возвращает значения ключей для указанной коллекции \(списка или карты\). Для списков ключами являются индексы элементов.
+
+```csharp
+{{ keys(['A', 'B']) }}
+```
+
+Предыдущий пример распечатает `[1, 2]`.
+
+### `slice`
+
+Эта функция возвращает подстроку или часть списка и ожидает три аргумента, где первый аргумент — список или строка, а второй и третий — числа.
+
+```csharp
+{{ slice("123", 1, 1) }}
+```
+
+```csharp
+{{ slice([1, 2, 3], 0, 2) }}
+```
+
+Второй аргумент — индекс позиции первого символа или элемента списка \(включительно\), а третий — длина ожидаемой подстроки или подсписка. Как показано на предыдущих двух примерах, они распечатают `"2"` и `[1, 2]` соответственно. Обратите внимание, что функция безопасна для выходящих за размеры значений, например:
+
+```csharp
+{{ slice("123", 2, 3) }}
+```
+
+```csharp
+{{ slice("123", 5, 1) }}
+```
+
+Предыдущие примеры все еще распечатает подстроки `"3"` и `""` соответственно.
+
+### `sort`
+
+Эта функция отсортирует переданный список по возрастанию.
+
+```csharp
+{{ sort([1, 3, 2]) }}
+```
+
+Предыдущий пример распечатает `[1, 2, 3]`.
+
+## Прочие функции
+
+### `date`
+
+Эта функция форматирует переданную дату в указанный формат. Функция принимает от одного, до трёх аргументов:
+
+* Объект даты или строка `'now'` если нужна текущая дата;
+* \(Опционально\) Формат даты на базе `SimpleDateFormat` из языка Java. Более подробно можно ознакомиться [здесь](http://www.sdfonlinetester.info/);
+* \(Опционально\) Часовой пояс даты в формате [TZ Database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+
+```csharp
+{{ date('now', 'EEE, d MMM yyyy HH:mm:ss z', 'Europe/Moscow') }}
+```
+
+Предыдущий пример распечатает текущую дату в московском времени, например `сб, 11 апр. 2020 15:27:38 MSK`.
+
+{% hint style="info" %}
+* Если часовой пояс не указан, используется часовой пояс сервера, настроенный в [панели управления](../../#configure);
+* Формат даты, указанный в примере, является форматом по-умолчанию;
+{% endhint %}
 
