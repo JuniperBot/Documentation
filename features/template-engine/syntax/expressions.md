@@ -109,6 +109,8 @@ map["key1"]
         <ul>
           <li><code>set</code>
           </li>
+          <li><code>global</code>
+          </li>
           <li><code>if</code>
           </li>
           <li><code>elseif</code>
@@ -126,6 +128,8 @@ map["key1"]
           <li><code>false</code>
           </li>
           <li><code>empty</code>
+          </li>
+          <li><code>return</code>
           </li>
         </ul>
       </th>
@@ -151,6 +155,10 @@ map["key1"]
           <li><code>not</code>
           </li>
           <li><code>with</code>
+          </li>
+          <li><code>require</code>
+          </li>
+          <li><code>returning</code>
           </li>
         </ul>
       </th>
