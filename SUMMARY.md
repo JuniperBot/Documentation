@@ -4,7 +4,8 @@
 
 ## Команды <a id="cmd"></a>
 
-* [Вызов команд](cmd/invoke.md)
+* [Вызов команд](cmd/invoke/README.md)
+  * [Аргументы команд](cmd/invoke/arguments.md)
 * [Список команд](cmd/list/README.md)
   * [Информация](cmd/list/information.md)
   * [Модерирование](cmd/list/moderation.md)
