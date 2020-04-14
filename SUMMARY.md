@@ -4,7 +4,8 @@
 
 ## Commands <a id="cmd"></a>
 
-* [Invoking commands](cmd/invoking.md)
+* [Invoking commands](cmd/invoking/README.md)
+  * [Arguments](cmd/invoking/arguments.md)
 * [Command list](cmd/list/README.md)
   * [Information](cmd/list/information.md)
   * [Moderation](cmd/list/moderation.md)
