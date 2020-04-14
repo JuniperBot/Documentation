@@ -1,6 +1,94 @@
+---
+description: Примеры команд с использование возможностей функционала шаблонного движка.
+---
+
 # Полезные примеры
 
-{% hint style="warning" %}
-Данный раздел находится в процессе написания и опубликован для ознакомления с будущей функциональностью. Шаблонный движок будет поддерживаться, начиная с JuniperBot версии 9.0 
-{% endhint %}
+## Случайные значения
+
+### Случайное число
+
+Простая команда, которая, используя функцию [random](functions.md#random), выведет случайное число от 0 до 100:
+
+```c
+Вам выпало: **{{ random(0, 100) }}**
+```
+
+### Случайное число в диапазоне
+
+Более сложная команда случайных чисел, которая позволит участнику вводить свои значения границ:
+
+```cpp
+{% require arguments.get(1) returning 'Пожалуйста, укажите минимальное значение' %}
+{% require arguments.get(2) returning 'Пожалуйста, максимальное значение' %}
+
+{{ member }}, Вам выпало **{{ random(arguments.get(1), arguments.get(2)) }}**
+```
+
+Данная команда проверяет, были ли введены первый и второй аргумент как минимальное и максимальное значение, после чего выводит случайное значение в указанном диапазоне.
+
+### Случайное число в диапазоне с проверкой ошибок
+
+Предыдущий пример имеет один недостаток. Если пользователь укажет максимальное значение меньше минимального, функция вернет ошибку, которая не очень понятно выглядит для участника. Поэтому, нужно убедиться, что максимальное значение больше минимального и это можно сделать следующим образом:
+
+```cpp
+{% require arguments.get(1) returning 'Пожалуйста, укажите минимальное значение' %}
+{% require arguments.get(2) returning 'Пожалуйста, максимальное значение' %}
+
+{% if (arguments.get(1) > arguments.get(2)) %}
+  {% return 'Максимальное значение должно быть больше минимального!' %}
+{% endif %}
+
+{{ member }}, Вам выпало **{{ random(arguments.get(1), arguments.get(2)) }}**
+```
+
+Как видите, отличие команды лишь в добавленном блоке проверки значений диапазона.
+
+### Случайная картинка
+
+Более сложный пример. Вы можете сделать свою команду со случайными картинками на подобии встроенных `!лис`, `!пёс`, `!кот`. Вы даже можете совместить это с каким-либо действием. Например, команда `!погладить`:
+
+```cpp
+{% set targetMemberID = arguments.get(1) %}
+{% set targetMemberMention = message.mentionedMembers[0] %}
+
+{%- if (targetMemberMention) %} 
+	{% global targetMember = targetMemberMention %}
+{% elseif (targetMemberID) %}
+	{% global targetMember = guild.getMember(targetMemberID) %}
+{% else %}
+	{% return 'Кого гладить?' %}
+{% endif -%}
+
+{% require targetMember returning 'Кого гладить?' %}
+
+{% if (targetMember.id == member.id) %}
+	{% return 'Нельзя гладить себя :c' %}
+{% endif %}
+
+{%- global gif = random([
+	'https://images-ext-1.discordapp.net/external/yOicyNxjyB_y1Cf3hCgsePnL36oofd1qjsyFRjDWOzc/https/cdn.weeb.sh/images/SyFmqkFwW.gif?width=432&height=243',
+  'https://images-ext-2.discordapp.net/external/ab1ICw2oaiDaG8Y0DwlPClP7xG54Ie4kKcaFtn7Q8LU/https/cdn.weeb.sh/images/SktIxo20b.gif?width=486&height=273',
+  'https://images-ext-2.discordapp.net/external/5ol3M2-FsEvm81oZXbS8rZdEdevG3qqDJ9faicEDrw8/https/cdn.weeb.sh/images/rJMskkFvb.gif?width=450&height=247',
+  'https://images-ext-2.discordapp.net/external/jFzBryOm4sSnuGD1FDOhtzGW52leLqh6UmIR5l6meZw/https/cdn.weeb.sh/images/SJLaWWRSG.gif?width=486&height=274',
+  'https://images-ext-1.discordapp.net/external/PzOpIvj5jAgz6bcEq7jwtXPbKgmSV-dVKSvPc__CsCQ/https/cdn.weeb.sh/images/rkl1xJYDZ.gif?width=486&height=304',
+  'https://images-ext-2.discordapp.net/external/sSZt42u8v8sWfZ5pg1NNIhnR7eEzmDXRIm93_GZG6yU/https/cdn.weeb.sh/images/Hkccqp4A-.gif?width=450&height=350',
+  'https://images-ext-2.discordapp.net/external/GN3TW6pXl-zupZ7Do5h4o1Pnm6ZA_2wj9RUqydghUW8/https/cdn.weeb.sh/images/Sk2FyQHpZ.gif?width=450&height=253',
+  'https://images-ext-1.discordapp.net/external/8tlbO-PtNvDizaijNJSJrzY1-lGprkAw_aO95H196dQ/https/cdn.weeb.sh/images/r1Y5L6NCZ.gif?width=486&height=270',
+  'https://images-ext-2.discordapp.net/external/Ml2iTnfjVuHGP-Lkz88WrGKJCv1cJ7UikuE2yvt3XgI/https/cdn.weeb.sh/images/rJWRykFvZ.gif?width=540&height=304',
+  'https://images-ext-1.discordapp.net/external/mVv4CiNvJjVBP6PbQgzleqysb31wA-P3p7v02S8jpfc/https/cdn.weeb.sh/images/ryXj1JKDb.gif?width=432&height=243'
+]) -%}
+
+**{{ targetMember.nickname }}**, тебя погладил(а) **{{ member.nickname }}**
+```
+
+Данная команда ожидает указания либо id участника, либо упоминание, иначе возвращает понятную участникам ошибку об этом. Она так же не позволяет погладить самого себя и тоже возвращает ошибку.
+
+Далее используется команда [random](functions.md#random) для выбора случайной ссылки с картинкой или анимацией. Обратите внимание, что переменная самой картинкой объявляется тегом [global](tags.md#global), это означает, что эту переменную можно будет использовать в других полях шаблона.
+
+Конкретно в данном случае, нам необходимо отобразить эту картинку, поэтому нам нужно переключить режим сообщения в "Панель" и ввести эту переменную в поле панели "Ссылка на полноразмерную картинку":
+
+```cpp
+{{ gif }}
+```
 
