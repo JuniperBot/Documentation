@@ -250,15 +250,77 @@ map["key1"]
 
 Тестовые выражения представляют собой сложную предикатные конструкции, в результате вычисления которых возвращается логическое значение.
 
-| Название | Описание | Пример |
-| :--- | :--- | :--- |
-| Null | Проверяет, является ли значение `null` | `1 is null` выводит `false` |
-| Divisible | Проверяет, можно ли поделить первое значение на второе | `2 is divisible by 1` выводит `true` |
-| Same As | Проверяет, являются ли два объекта буквально одним и тем же объектом | `1 is same as 2` выводит `false` |
-| Function based | Проверяет результат вычисления этой функции над аргументом. Допустимые названия функций перечислены [здесь](../functions.md). | `4 is defined` выводит `true`. |
-| Is Not | В любых конструкциях выше можно использовать отрицание `is not` | `4 is not defined` выводит `false` |
-
-### Оператор выбора
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435;</th>
+      <th style="text-align:left">&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</th>
+      <th style="text-align:left">&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Null</td>
+      <td style="text-align:left">&#x41F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x435;&#x442;, &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F;
+        &#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; <code>null</code>
+      </td>
+      <td style="text-align:left"><code>1 is null</code> &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; <code>false</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Divisible</td>
+      <td style="text-align:left">&#x41F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x435;&#x442;, &#x43C;&#x43E;&#x436;&#x43D;&#x43E;
+        &#x43B;&#x438; &#x43F;&#x43E;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C;
+        &#x43F;&#x435;&#x440;&#x432;&#x43E;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;
+        &#x43D;&#x430; &#x432;&#x442;&#x43E;&#x440;&#x43E;&#x435;</td>
+      <td style="text-align:left"><code>2 is divisible by 1</code> &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; <code>true</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Same As</td>
+      <td style="text-align:left">&#x41F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x435;&#x442;, &#x44F;&#x432;&#x43B;&#x44F;&#x44E;&#x442;&#x441;&#x44F;
+        &#x43B;&#x438; &#x434;&#x432;&#x430; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;
+        &#x431;&#x443;&#x43A;&#x432;&#x430;&#x43B;&#x44C;&#x43D;&#x43E; &#x43E;&#x434;&#x43D;&#x438;&#x43C;
+        &#x438; &#x442;&#x435;&#x43C; &#x436;&#x435; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x43C;</td>
+      <td
+      style="text-align:left"><code>1 is same as 2</code> &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; <code>false</code>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Function based</td>
+      <td style="text-align:left">&#x41F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x435;&#x442; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442;
+        &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x438;&#x44F;
+        &#x44D;&#x442;&#x43E;&#x439; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438;
+        &#x43D;&#x430;&#x434; &#x430;&#x440;&#x433;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x43C;.
+        &#x414;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x435;
+        &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x439;
+        &#x43F;&#x435;&#x440;&#x435;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x44B;
+        <a
+        href="../functions.md">&#x437;&#x434;&#x435;&#x441;&#x44C;</a>.
+          <br />&#x41F;&#x43E;&#x43B;&#x435;&#x437;&#x43D;&#x43E; &#x43F;&#x440;&#x438;
+          &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x438;
+          &#x441;&#x43E;&#x432;&#x43C;&#x435;&#x441;&#x442;&#x43D;&#x43E; &#x441;
+          &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F;&#x43C;&#x438; <a href="../functions.md#number">number</a>,
+          <a
+          href="../functions.md#iterable">iterable</a>&#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x43A;&#x438;
+            &#x442;&#x438;&#x43F;&#x430;.</td>
+      <td style="text-align:left">
+        <p><code>4 is defined</code> &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; <code>true;</code>
+        </p>
+        <p><code>&apos;test&apos; is number</code> &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; <code>false</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Is Not</td>
+      <td style="text-align:left">&#x412; &#x43B;&#x44E;&#x431;&#x44B;&#x445; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x446;&#x438;&#x44F;&#x445;
+        &#x432;&#x44B;&#x448;&#x435; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;
+        &#x43E;&#x442;&#x440;&#x438;&#x446;&#x430;&#x43D;&#x438;&#x435; <code>is not</code>
+      </td>
+      <td style="text-align:left"><code>4 is not defined</code> &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; <code>false</code>
+      </td>
+    </tr>
+  </tbody>
+</table>### Оператор выбора
 
 Оператор выбора используется для получения доступа к свойству какого-либо объекта или вызова функции этого объекта. Допустимые свойства и функции описаны в разделе [входные данные](../setup.md).
 
