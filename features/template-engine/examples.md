@@ -58,9 +58,9 @@ description: Примеры команд с использованием воз�
 {% set targetMemberMention = message.mentionedMembers[0] %}
 
 {%- if (targetMemberMention) %} 
-	{% global targetMember = targetMemberMention %}
+	{% set targetMember = targetMemberMention %}
 {% elseif (targetMemberID) %}
-	{% global targetMember = guild.getMember(targetMemberID) %}
+	{% set targetMember = guild.getMember(targetMemberID) %}
 {% else %}
 	{% return 'Кого гладить?' %}
 {% endif -%}
