@@ -1,7 +1,5 @@
 # Музыка
 
-## Введение <a id="intro"></a>
-
 {% hint style="success" %}
 Музыкальные возможности доступны только [поддержавшим нас](https://juniper.bot/donate)!
 {% endhint %}
