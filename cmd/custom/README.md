@@ -10,7 +10,7 @@ Custom commands can be created and configured at the server's [control panel](ht
 
 Each command has a certain set of general settings regardless of its type:
 
-![](../../.gitbook/assets/oaoaommm-20-03-25-19-29-14.png)
+![](../../.gitbook/assets/oaoaommm-20-04-15-18-05-16.png)
 
 * **Command** — the name of the command that will be used to call it in Discord;
 * **Type** — type of command. You can find detailed descriptions for each of them just below in next section as well as other pages within this category;

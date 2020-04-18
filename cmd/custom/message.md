@@ -16,20 +16,22 @@ In this type of command, you can choose two sending modes — text and embed:
 
 ### Mode "Text" <a id="text"></a>
 
-![Interface for &quot;text&quot; mode settings](../../.gitbook/assets/oaoaommm-20-03-25-17-08-33.png)
+![](../../.gitbook/assets/oaoaommm-20-04-15-17-40-46.png)
 
 Numbers indicates interface elements, which are explained below:
 
 1 — Switch between the first and second sending mode;   
 2, 3, 4 — Formatting the text inside the message template as bold, italic or underlined, respectively. To use it select the desired part of the text in the message template and click the desired formatting button;   
-5 — Emoji Picker. Here you can choose standard or server emojis if you want to use them in your message \(server emojis are at the bottom of the list\);   
-6 — Button to open documentation for custom commands;   
-7 — Preview Button of the message. By clicking on it, you can see how the message will look on the Discord;   
+5 — Selecting templates for the template engine;  
+6 — Emoji Picker. Here you can choose standard or server emojis if you want to use them in your message \(server emojis are at the bottom of the list\);   
+7 — Button to open documentation for custom commands;   
 8 — Selection of the channel to send this message to. If the channel is not specified, the message will be sent to the channel where this command was invoked.  
-9 — The message text. You can use various [template variables](https://docs.juniper.bot/v/english/features/template-variables) here;   
-10 — A check Mark that allows you to enable the Text-to-Speech of the message by a special hamster robot;   
-11 — A Field where you can specify the number of seconds after which the message will be deleted;   
-12 — Functionality for assigning roles for reactions. This feature is only available to those who [supporting](https://juniper.bot/donate) the bot.
+9 — Preview Button of the message. By clicking on it, you can see how the message will look on the Discord;  
+10 — The message text. You can use various [template variables](https://docs.juniper.bot/v/english/features/template-variables) here;   
+11 — Button that will stretch the message template to the entire page area;  
+12 — A check Mark that allows you to enable the Text-to-Speech of the message by a special hamster robot;   
+13 — A Field where you can specify the number of seconds after which the message will be deleted;   
+14, 15 — Functionality for assigning roles for reactions. This feature is only available to those who [supporting](https://juniper.bot/donate) the bot.
 
 ### Mode "embed" <a id="embed"></a>
 
@@ -47,5 +49,5 @@ If you want to embed a link in the text inside the embed template, you can do th
 
 Inline fields — these are fields that are inlined into the same row if possible.
 
-You can use [template variables](https://docs.juniper.bot/v/english/features/template-variables) inside any embed values. For example, if you want to replace the author's icon with the avatar of the member who called this command, in "Link to the author's icon" you need to enter `{member.avatarUrl}` there.
+You can use [template variables](https://docs.juniper.bot/v/english/features/template-variables) inside any embed values. For example, if you want to replace the author's icon with the avatar of the member who called this command, in "Link to the author's icon" you need to enter `{{ member.avatarUrl }}` there.
 
