@@ -23,7 +23,12 @@
 `{content:1..}` станет `{{arguments.after(1)}}`  
 `{content:..4}` станет `{{arguments.before(4)}}`  
 `{content:2..4}` станет `{{arguments.range(2,4)}}`   
-Цифры свои соответственно.
+Цифры свои соответственно.  
+6. Заменить упоминания участников:  
+`{message.mentions}` станет `{{join(message.mentionedMembers)}}`asd  
+`{message.mentions.1}` станет `{{message.mentionedMembers[0]}}`  
+`{message.mentions.2}` станет `{{message.mentionedMembers[1]}}`   
+Как вы заметили, отсчет там начинается с 0.
 {% endhint %}
 
 ## Типы данных переменных
