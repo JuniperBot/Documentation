@@ -32,6 +32,7 @@
 * [Переменные шаблонов](features/template-variables/README.md)
   * [Типы данных](features/template-variables/data-types.md)
 * [Шаблонный движок](features/template-engine/README.md)
+  * [Новичкам](features/template-engine/beginners.md)
   * [Синтаксис](features/template-engine/syntax/README.md)
     * [Островки кода](features/template-engine/syntax/code-islands.md)
     * [Выражения](features/template-engine/syntax/expressions.md)
@@ -39,7 +40,7 @@
   * [Теги](features/template-engine/tags.md)
   * [Функции](features/template-engine/functions.md)
   * [Типы данных](features/template-engine/types.md)
-  * [Настройка шаблона](features/template-engine/setup.md)
+  * [Переменные шаблонов](features/template-engine/variables.md)
   * [Полезные примеры](features/template-engine/examples.md)
 
 ## Прочее <a id="misc"></a>
