@@ -15,6 +15,6 @@ description: >-
 {% endhint %}
 
 {% hint style="info" %}
-Переменные шаблонов, доступные для использования в уведомлении о нарушении этого фильтра, можно посмотреть [здесь](https://docs.juniper.bot/misc/template-variables#filtr-emocii).
+Переменные шаблонов, доступные для использования в уведомлении о нарушении этого фильтра, можно посмотреть [здесь](../template-engine/setup.md#filtr-emocii).
 {% endhint %}
 
