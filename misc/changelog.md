@@ -4,6 +4,26 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.0
+
+* ~~JuniperScript~~ Template engine:
+  * Extended template variables;
+  * Expressions, algorithms, conditions;
+  * Actions as part of template: role add/remove, send messages, check permissions;
+  * Documentation: [https://docs.juniper.bot/features/template-engine](https://docs.juniper.bot/features/template-engine);
+  * Examples: [https://docs.juniper.bot/features/template-engine/examples](https://docs.juniper.bot/features/template-engine/examples);
+* **\[Аудио\]** Improved `очередь/queue` command;
+* Command settings improvements:
+  * Ability to hide the command;
+  * Ability to limit the command to NSFW channels;
+  * Separate save, save and close actions;
+  * Ability to duplicate commands;
+  * Now you can save using Ctrl+S hotkey;
+* **\[web\]** Improved bad words insertion in automoderation filter \(split by spaces, commas\);
+* Fixed an issue when actions per infractions with permanent duration not worked correctly, whoops;
+* Fixed an issue when `ковид/covid` not worked at all;
+* Some small fixes and improvements.
+
 ### Version 8.9
 
 * Fixed an issue when non-default accent color of messages not worked at custom commands, they had default orange;
