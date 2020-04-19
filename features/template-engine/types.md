@@ -75,11 +75,7 @@ description: 'Типы данных, используемые в шаблонн�
     <tr>
       <td style="text-align:left"><code>hasRole(&#x420;&#x43E;&#x43B;&#x44C;)</code>
       </td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>,
-        <br
-        /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>,
-        <br
-        /><a href="types.md#role">Role</a>
+      <td style="text-align:left">ID &#x438;&#x43B;&#x438; <a href="types.md#role">Role</a>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
       </td>
@@ -106,11 +102,7 @@ description: 'Типы данных, используемые в шаблонн�
         <ul>
           <li>
             <p>&#x41A;&#x430;&#x43D;&#x430;&#x43B;:</p>
-            <p><a href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>,
-              <br
-              /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>,
-              <br
-              /><a href="types.md#textchannel">TextChannel</a>
+            <p>ID &#x438;&#x43B;&#x438;<a href="types.md#textchannel"> TextChannel</a>
             </p>
           </li>
           <li>
@@ -131,11 +123,7 @@ description: 'Типы данных, используемые в шаблонн�
     <tr>
       <td style="text-align:left"><code>addRole(&#x420;&#x43E;&#x43B;&#x44C;)</code>
       </td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>,
-        <br
-        /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>,
-        <br
-        /><a href="types.md#role">Role</a>
+      <td style="text-align:left">ID &#x438;&#x43B;&#x438; <a href="types.md#role">Role</a>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
       </td>
@@ -152,30 +140,25 @@ description: 'Типы данных, используемые в шаблонн�
     <tr>
       <td style="text-align:left"><code>addRoles(&#x420;&#x43E;&#x43B;&#x438;)</code>
       </td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;
-        <a
-        href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>&gt;</td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
-      </td>
-      <td style="text-align:left">&#x412;&#x44B;&#x434;&#x430;&#x435;&#x442; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x443;
-        &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x440;&#x43E;&#x43B;&#x438;.
-        &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; <code>true</code>,
-        &#x435;&#x441;&#x43B;&#x438; &#x445;&#x43E;&#x442;&#x44F; &#x431;&#x44B;
-        &#x43E;&#x434;&#x43D;&#x430; &#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x44B;&#x43B;&#x430;
-        &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E; &#x432;&#x44B;&#x434;&#x430;&#x43D;&#x430;
-        &#x438; <code>false</code>, &#x435;&#x441;&#x43B;&#x438; &#x43D;&#x435;&#x442;
-        &#x440;&#x430;&#x437;&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x439;
-        &#x438;&#x43B;&#x438; &#x442;&#x430;&#x43A;&#x438;&#x435; &#x440;&#x43E;&#x43B;&#x438;
-        &#x443;&#x436;&#x435; &#x435;&#x441;&#x442;&#x44C;.</td>
+      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;ID&gt;</td>
+      <td
+      style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
+        </td>
+        <td style="text-align:left">&#x412;&#x44B;&#x434;&#x430;&#x435;&#x442; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x443;
+          &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x440;&#x43E;&#x43B;&#x438;.
+          &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; <code>true</code>,
+          &#x435;&#x441;&#x43B;&#x438; &#x445;&#x43E;&#x442;&#x44F; &#x431;&#x44B;
+          &#x43E;&#x434;&#x43D;&#x430; &#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x44B;&#x43B;&#x430;
+          &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E; &#x432;&#x44B;&#x434;&#x430;&#x43D;&#x430;
+          &#x438; <code>false</code>, &#x435;&#x441;&#x43B;&#x438; &#x43D;&#x435;&#x442;
+          &#x440;&#x430;&#x437;&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x439;
+          &#x438;&#x43B;&#x438; &#x442;&#x430;&#x43A;&#x438;&#x435; &#x440;&#x43E;&#x43B;&#x438;
+          &#x443;&#x436;&#x435; &#x435;&#x441;&#x442;&#x44C;.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>removeRole(&#x420;&#x43E;&#x43B;&#x44C;)</code>
       </td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>,
-        <br
-        /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>,
-        <br
-        /><a href="types.md#role">Role</a>
+      <td style="text-align:left">ID &#x438;&#x43B;&#x438; <a href="types.md#role">Role</a>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
       </td>
@@ -193,34 +176,29 @@ description: 'Типы данных, используемые в шаблонн�
     <tr>
       <td style="text-align:left"><code>removeRoles(&#x420;&#x43E;&#x43B;&#x438;)</code>
       </td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;
-        <a
-        href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>&gt;</td>
-      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
-      </td>
-      <td style="text-align:left">&#x421;&#x43D;&#x438;&#x43C;&#x430;&#x435;&#x442; &#x441; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x430;
-        &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x440;&#x43E;&#x43B;&#x438;.
-        &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; <code>true</code>,
-        &#x435;&#x441;&#x43B;&#x438; &#x445;&#x43E;&#x442;&#x44F; &#x431;&#x44B;
-        &#x43E;&#x434;&#x43D;&#x430; &#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x44B;&#x43B;&#x430;
-        &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E; &#x441;&#x43D;&#x44F;&#x442;&#x430;
-        &#x438; <code>false</code>, &#x435;&#x441;&#x43B;&#x438; &#x43D;&#x435;&#x442;
-        &#x440;&#x430;&#x437;&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x439;
-        &#x438;&#x43B;&#x438; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x440;&#x43E;&#x43B;&#x435;&#x439;
-        &#x443;&#x436;&#x435; &#x43D;&#x435;&#x442;.</td>
+      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;ID&gt;</td>
+      <td
+      style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
+        </td>
+        <td style="text-align:left">&#x421;&#x43D;&#x438;&#x43C;&#x430;&#x435;&#x442; &#x441; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x430;
+          &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x440;&#x43E;&#x43B;&#x438;.
+          &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; <code>true</code>,
+          &#x435;&#x441;&#x43B;&#x438; &#x445;&#x43E;&#x442;&#x44F; &#x431;&#x44B;
+          &#x43E;&#x434;&#x43D;&#x430; &#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x44B;&#x43B;&#x430;
+          &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E; &#x441;&#x43D;&#x44F;&#x442;&#x430;
+          &#x438; <code>false</code>, &#x435;&#x441;&#x43B;&#x438; &#x43D;&#x435;&#x442;
+          &#x440;&#x430;&#x437;&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x439;
+          &#x438;&#x43B;&#x438; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x440;&#x43E;&#x43B;&#x435;&#x439;
+          &#x443;&#x436;&#x435; &#x43D;&#x435;&#x442;.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>modifyRoles(&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C;, &#x421;&#x43D;&#x44F;&#x442;&#x44C;)</code>
       </td>
       <td style="text-align:left">
         <ul>
-          <li>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C;: <a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;
-            <a
-            href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>&gt;</li>
+          <li>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C;: <a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;ID&gt;</li>
           <li>&#x421;&#x43D;&#x44F;&#x442;&#x44C;:
-            <br /><a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;
-            <a
-            href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>&gt;</li>
+            <br /><a href="syntax/expressions.md#primitivy">&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</a>&lt;ID&gt;</li>
         </ul>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
@@ -348,11 +326,7 @@ description: 'Типы данных, используемые в шаблонн�
         <ul>
           <li>
             <p>&#x41A;&#x430;&#x43D;&#x430;&#x43B;:</p>
-            <p><a href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>,
-              <br
-              /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>,
-              <br
-              /><a href="types.md#textchannel">TextChannel</a>
+            <p>ID,<a href="types.md#textchannel"> TextChannel</a>
             </p>
           </li>
           <li>
