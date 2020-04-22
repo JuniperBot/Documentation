@@ -6,3 +6,13 @@ description: >-
 
 # Синтаксис
 
+#### Страницы в этой категории
+
+{% page-ref page="code-islands.md" %}
+
+{% page-ref page="expressions.md" %}
+
+{% page-ref page="type-convert.md" %}
+
+
+
