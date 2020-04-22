@@ -39,8 +39,8 @@
     * [Конвертация типов](features/template-engine/syntax/type-convert.md)
   * [Теги](features/template-engine/tags.md)
   * [Функции](features/template-engine/functions.md)
-  * [Типы данных](features/template-engine/types.md)
-  * [Переменные шаблонов](features/template-engine/variables.md)
+  * [Переменные шаблонов](features/template-engine/variables/README.md)
+    * [Типы данных](features/template-engine/variables/types.md)
   * [Полезные примеры](features/template-engine/examples.md)
 
 ## Прочее <a id="misc"></a>
