@@ -35,11 +35,11 @@ Numbers indicates interface elements, which are explained below:
 
 ### Mode "embed" <a id="embed"></a>
 
-![Embed settings](../../.gitbook/assets/image%20%287%29.png)
+![Embed settings](../../.gitbook/assets/image%20%288%29.png)
 
 The **embed color** is the color of the stripe on the left of the embed. Everything else can be seen in the screenshot below, where all the fields are signed with their own name:
 
-![Embed fields](../../.gitbook/assets/image%20%289%29.png)
+![Embed fields](../../.gitbook/assets/image%20%2810%29.png)
 
 The "Author" and "Title" fields can contain a link, which can be specified in the "author Link" and "title Link" settings of the embed, respectively.
 
