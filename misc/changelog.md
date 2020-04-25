@@ -4,6 +4,30 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.1
+
+* Message template improvements:
+  * New global functions:
+    * `startsWith` - checks if string starts with specified prefix string;
+    * `endsWith` - checks if string ends with specified suffix string;
+    * `contains` - check if string contains other substring;
+    * `plural` - selects word plural for specified number;
+  * New data types:
+    * **Category** - channel category;
+    * **Attachment** - message attachment;
+    * **Embed** - message embed for sending;
+  * New **TextChannel** functions: `createEmbed()` - create new message embed;
+  * New property for **TextChannel** and **VoiceChannel**: `parent` - returns channel category if exists; 
+  * New property for **Member**: `bot` - true if this member is bot; 
+  * New property for **Message**: `attachments` - attachments list; 
+  * Fixed an issue when ranking variables `rolesToAdd`, `rolesToRemove` not worked correctly;
+  * Fixed an issue when variable `{{member.rank.rank}}` always returned 0;
+  * Fixed an issue when message content was duplicated inside embed content in case it was empty;
+  * Fixed an issue when backspace button not worked correctly inside message templates on mobile devices;
+* **\[Web\]** Enable/disable switch state of auto-moderation filters will now be saved immediately;
+* **\[Web\]** Fixed an issue when any subscription errors were not displayed correctly;
+* Some small fixes and improvements.
+
 ### Version 9.0
 
 * ~~JuniperScript~~ Template engine:
