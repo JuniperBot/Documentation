@@ -1,4 +1,4 @@
-# Переменные шаблонов
+# Переменные шаблонов \(устарело\)
 
 {% hint style="danger" %}
 Начиная с версии JuniperBot 9.0, старые переменные шаблонов были [заменены](message-templates/beginners/variables.md)!

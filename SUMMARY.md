@@ -22,6 +22,8 @@
 
 ## Возможности <a id="features"></a>
 
+* [Рейтинг участников](features/ranking/README.md)
+  * [Опыт в рейтинге](features/ranking/experience.md)
 * [Автомодерация](features/automoderation/README.md)
   * [Ссылки](features/automoderation/links.md)
   * [Плохие слова](features/automoderation/bad-words.md)
@@ -29,7 +31,6 @@
   * [Caps Lock](features/automoderation/caps-lock.md)
   * [Эмоции](features/automoderation/emotes.md)
   * [Упоминания](features/automoderation/mentions.md)
-* [Переменные шаблонов](features/template-variables.md)
 * [Шаблоны сообщений](features/message-templates/README.md)
   * [Новичкам](features/message-templates/beginners/README.md)
     * [Переменные шаблонов](features/message-templates/beginners/variables.md)
@@ -43,11 +44,13 @@
     * [Типы данных](features/message-templates/advanced/types.md)
     * [Входные данные](features/message-templates/advanced/variables.md)
   * [Полезные примеры](features/message-templates/examples.md)
+* [Переменные шаблонов \(устарело\)](features/template-variables.md)
+* [Лесная Возня](features/lesnaya-voznya.md)
+* [Калькулятор](features/calculator.md)
 
 ## Прочее <a id="misc"></a>
 
 * [Часто задаваемые вопросы](misc/faq.md)
-* [Опыт в рейтинге](misc/ranking-exp.md)
 * [Радиостанции](misc/radio-stations.md)
 * [Список изменений](misc/changelog.md)
 
