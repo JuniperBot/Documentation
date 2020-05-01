@@ -4,8 +4,8 @@
 
 ## Commands <a id="cmd"></a>
 
-* [Invoking commands](cmd/invoking/README.md)
-  * [Arguments](cmd/invoking/arguments.md)
+* [Invoking commands](cmd/invoke/README.md)
+  * [Arguments](cmd/invoke/arguments.md)
 * [Command list](cmd/list/README.md)
   * [Information](cmd/list/information.md)
   * [Moderation](cmd/list/moderation.md)
@@ -23,6 +23,7 @@
 
 * [Template variables](features/template-variables/README.md)
   * [Data Types](features/template-variables/data-types.md)
+* [Calculator](features/calculator.md)
 
 ## Misc
 

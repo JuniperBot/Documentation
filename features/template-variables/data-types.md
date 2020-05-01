@@ -34,6 +34,6 @@ They are already described as [Member](./#member), [Server ](./#server)and [Chan
 ### Durations
 
 {% hint style="info" %}
-Moved to [Invoking commands &gt; Arguments](../../cmd/invoking/arguments.md#duration).
+Moved to [Invoking commands &gt; Arguments](../../cmd/invoke/arguments.md#duration).
 {% endhint %}
 
