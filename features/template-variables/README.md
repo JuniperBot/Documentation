@@ -6,6 +6,10 @@ description: >-
 
 # Template variables
 
+{% hint style="danger" %}
+This section is **deprecated**. New template engine have been introduced in version 9.0. There is no English translation just yet but you can use Google Translate: [Click here](https://docs.juniper.bot/features/message-templates).
+{% endhint %}
+
 These can be used by typing them inside:
 
 * Message content;
