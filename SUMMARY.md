@@ -6,22 +6,14 @@
 
 * [Вызов команд](cmd/invoke/README.md)
   * [Аргументы команд](cmd/invoke/arguments.md)
-* [Список команд](cmd/list/README.md)
-  * [Информация](cmd/list/information.md)
-  * [Модерирование](cmd/list/moderation.md)
-  * [Рейтинг](cmd/list/ranking.md)
-  * [Музыка](cmd/list/music.md)
-  * [Лесная возня](cmd/list/forest-fuss.md)
-  * [Весёлое](cmd/list/fun.md)
-  * [Утилиты](cmd/list/utility.md)
-* [Пользовательские команды](cmd/custom/README.md)
-  * [Создание простой команды](cmd/custom/simple-command.md)
-  * [Сообщение](cmd/custom/message.md)
-  * [Перенаправление](cmd/custom/alias.md)
-  * [Изменение ролей](cmd/custom/roles-changing.md)
 
 ## Возможности <a id="features"></a>
 
+* [Пользовательские команды](features/custom-commands/README.md)
+  * [Создание простой команды](features/custom-commands/simple-command.md)
+  * [Сообщение](features/custom-commands/message.md)
+  * [Перенаправление](features/custom-commands/alias.md)
+  * [Изменение ролей](features/custom-commands/roles-changing.md)
 * [Рейтинг участников](features/ranking/README.md)
   * [Опыт в рейтинге](features/ranking/experience.md)
 * [Автомодерация](features/automoderation/README.md)
