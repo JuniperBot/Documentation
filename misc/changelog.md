@@ -4,6 +4,22 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.2
+
+* Message template improvements:
+  * Ability to store your own custom member's data \(attributes\)
+  * New data types:
+    * **Attribute** - member attribute;
+  * New property for **Rank**: `voiceActivityMs` - voice activity of member in milliseconds; 
+  * NEw functions for **Member**:
+    * `modifyNickname('Name')` - change member's nickname;
+    * `getAttribute('key')` - get member's attribute object with key `key`;
+* Huge commands Help information update:
+  * **\[web\]** New command dictionary https://juniper.bot/commands;
+  * **\[web\]** It is integrated as dashboard's commands settings too;
+  * Now you can get help information for every command using `?`sign, for example `!юзер ?`;
+* Some small fixes and improvements.
+
 ### Version 9.1
 
 * Message template improvements:
