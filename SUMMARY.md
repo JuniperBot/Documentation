@@ -6,14 +6,14 @@
 
 * [Вызов команд](cmd/invoke/README.md)
   * [Аргументы команд](cmd/invoke/arguments.md)
+* [Пользовательские команды](cmd/custom-commands/README.md)
+  * [Создание простой команды](cmd/custom-commands/simple-command.md)
+  * [Сообщение](cmd/custom-commands/message.md)
+  * [Перенаправление](cmd/custom-commands/alias.md)
+  * [Изменение ролей](cmd/custom-commands/roles-changing.md)
 
 ## Возможности <a id="features"></a>
 
-* [Пользовательские команды](features/custom-commands/README.md)
-  * [Создание простой команды](features/custom-commands/simple-command.md)
-  * [Сообщение](features/custom-commands/message.md)
-  * [Перенаправление](features/custom-commands/alias.md)
-  * [Изменение ролей](features/custom-commands/roles-changing.md)
 * [Рейтинг участников](features/ranking/README.md)
   * [Опыт в рейтинге](features/ranking/experience.md)
 * [Автомодерация](features/automoderation/README.md)
