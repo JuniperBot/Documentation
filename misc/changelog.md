@@ -4,6 +4,20 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.3
+
+* Message template improvements:
+  * Fixed an issue when Attribute's functions `increment`/`decrement` not worked correctly for some input;
+* Fixed an issue when VK.com reposts caused an empty messages with only `@everyone` if it was enabled;
+* `сервер/serverinfo` command improvements: reordered some fields, added a bonus status field with thanks message;
+* Mutes improvements:
+  * Added new mute mode `here` additionally to `everywhere`;
+  * **\[web\]** Added an option to select default mute mode so you can mute members on the whole server by default without `everywhere` keyword;
+  * **\[web\]** Added an option to select muted role and disable an automated management of its permissions in the channels;
+* **\[audio\]** Fixed an issue with loading some user's Yandex.Music playlists;
+* `слоумод/slowmode` commands now supports duration up to 21600 seconds;
+* Some small fixes and improvements.
+
 ### Version 9.2
 
 * Message template improvements:
