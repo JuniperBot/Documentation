@@ -33,7 +33,7 @@ Will not. At all. **Never.** Use another bots who are originally designed for ec
 
 ## Will you support VKontakte playlists and music?
 
- Nope. Say thanks to greedy copywriters who forced [VKontakte ](https://vk.com/) to close public access to their music.
+ Nope. Say thanks to greedy copywriters who forced [VKontakte ](https://vk.com/)to close public access to their music.
 
 ## Will this and that be implemented and when?
 
