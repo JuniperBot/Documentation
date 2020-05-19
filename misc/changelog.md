@@ -4,6 +4,21 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.4
+
+* Bonus system update:
+  * Now there is no explicit binding of bonuses to the server owner and bonuses can be activated on absolutely any servers, you don't have to be an owner now;
+  * Due to the lack of binding, the number of available servers with bonuses is now limited:
+    * **Patreon**: number is equal of subscription amount \($2 - 2 servers, $5 - 5 servers\);
+    * **Nitro-Booster**: any single server you want;
+  * Command `бонус/bonus` has been updated, now it allows to manage bonuses on the servers:
+    * Activate/deactivate bonuses on current on selected server by ID;
+    * Show the list of active bonuses;
+  * New subscription option through Boosty.to: [https://boosty.to/juniperbot](https://boosty.to/juniperbot)
+* If member speaking in voice channel while global muting, he will be kicked from voice channel;
+* Redesigned interface of embed fields editor in message templates and a list of reaction roles in custom commands;
+* Some small fixes and improvements.
+
 ### Version 9.3
 
 * Message template improvements:
