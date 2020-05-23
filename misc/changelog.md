@@ -9,7 +9,7 @@ description: The latest JuniperBot changes are described here.
 * Message template improvements:
   * Fixed an confusion with the names of ranking variables:
     * Variable `member.rank.remainingExp` changed - now returns remaining EXP until the next level rather than the current EXP on the current level;
-    * Добавлена переменная`member.rank.levelCurrentExp` - returns current EXP on the current level;
+    * Variable`member.rank.levelCurrentExp` added - returns current EXP on the current level;
   * Fixed an issues with some function invocations;
 * Auto-moderation improvements:
   * New filter has been added: Zalgo;
