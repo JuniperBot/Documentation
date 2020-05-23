@@ -23,6 +23,7 @@
   * [Caps Lock](features/automoderation/caps-lock.md)
   * [Эмоции](features/automoderation/emotes.md)
   * [Упоминания](features/automoderation/mentions.md)
+  * [Zalgo](features/automoderation/zalgo.md)
 * [Шаблоны сообщений](features/message-templates/README.md)
   * [Новичкам](features/message-templates/beginners/README.md)
     * [Переменные шаблонов](features/message-templates/beginners/variables.md)
