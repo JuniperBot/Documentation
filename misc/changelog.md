@@ -4,6 +4,19 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.5
+
+* Message template improvements:
+  * Fixed an confusion with the names of ranking variables:
+    * Variable `member.rank.remainingExp` changed - now returns remaining EXP until the next level rather than the current EXP on the current level;
+    * Добавлена переменная`member.rank.levelCurrentExp` - returns current EXP on the current level;
+  * Fixed an issues with some function invocations;
+* Auto-moderation improvements:
+  * New filter has been added: Zalgo;
+  * New restraints have been added: mute and change roles;
+* Fixed an issue with infinite rounds of Forest Fuss caused by Fox and Beaver gameplay conflict;
+* Some small fixes and improvements.
+
 ### Version 9.4
 
 * Bonus system update:
