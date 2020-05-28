@@ -690,7 +690,7 @@ description: 'Типы данных, используемые в шаблонн�
       <td style="text-align:center">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>addBlankField()</code>
+      <td style="text-align:left"><code>addBlankField(&#x41E;&#x434;&#x43D;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x435;)</code>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
       </td>
