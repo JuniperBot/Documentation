@@ -4,6 +4,18 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.6
+
+* Message template improvements:
+  * New property for **Member**: `tag` - returns user's tag in format `Name#1234`;
+  * Fixed an issue with functions accepting `null` as parameters;
+* **\[audit\]** Added a new action type logging for removed and reset warnings;
+* Command `бонус/bonus` is not unavailable for configuring and enabled permanently for everyone;
+* Prefix cannot contain "\`" character now;
+* Fixed issues with text formatting of YouTube/Twitch notifications, and their preview images should display correctly now;
+* Fixed an issue with cooldown was not available for longer than 17 days;
+* Some small fixes and improvements.
+
 ### Version 9.5
 
 * Message template improvements:
