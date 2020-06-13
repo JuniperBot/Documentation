@@ -4,6 +4,18 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.7
+
+* Extended Reminder System:
+  * Command `напомни/remind` has been renamed to `напоминание/reminder`;
+  * Now you're able to check server's reminder list and remove reminders you don't need anymore;
+  * Command syntax has been changed, check command help to see what changed;
+  * Now you can control reminders using dashboard;
+  * **\[donate\]** Repeatable reminders with intervals;
+* Now bot will not delete user's messages if he has a mute role in case it is not managed. This giving administrator full control over mute role;
+* Fixed some issues with mentions detection in message templates;
+* Some small fixes and improvements.
+
 ### Version 9.6
 
 * Message template improvements:
