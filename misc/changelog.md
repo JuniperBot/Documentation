@@ -4,6 +4,22 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.8
+
+* Zalgo filter now ignores mentions;
+* Ranking top by voice activity and cookies:
+  * Using command `лидеры/leaders`;
+  * Using ranking page on the website;
+* **\[donate\]** Start date for repeatable reminders;
+* **\[forest full\]** Now all players can skip current game step if they need to \(for example if someone went AFK\);
+* **\[audit\]** Audit system improvements:
+  * Bot add/leave actions now works correctly;
+  * **\[web\]** Ignored text channels for message edit/delete/clear logs;
+* Now you can configure the delay before system messages deletion for both success and error messages;
+* Fixed some issues with emojis detection in message templates;
+* Fixed an issue with permanent mute using auto-moderation filters;
+* Some small fixes and improvements.
+
 ### Version 9.7
 
 * Extended Reminder System:
