@@ -11,7 +11,7 @@ description: The latest JuniperBot changes are described here.
   * Using command `лидеры/leaders`;
   * Using ranking page on the website;
 * **\[donate\]** Start date for repeatable reminders;
-* **\[forest full\]** Now all players can skip current game step if they need to \(for example if someone went AFK\);
+* **\[forest fuss\]** Now all players can skip current game step if they need to \(for example if someone went AFK\);
 * **\[audit\]** Audit system improvements:
   * Bot add/leave actions now works correctly;
   * **\[web\]** Ignored text channels for message edit/delete/clear logs;
