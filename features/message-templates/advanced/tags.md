@@ -158,7 +158,7 @@ description: Описание всех доступных тегов шабло�
 {% set loop = 1 %}
 {% for item in [1, 2, 3] %}
     {% if (loop.first) %}
-        {{ loop.parent.index }}
+        {{ loop.index }}
         {% set loop = 2 %}
     {% endif %}
 {% endfor %}
