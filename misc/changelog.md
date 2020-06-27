@@ -4,6 +4,14 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.9
+
+* Fixed broken `викифур/wikifur` command;
+* Fixed public mentions `@everyone/@here` not worked correctly in reminders created at the dashboard;
+* **\[web\]** Fixed issues with dashboard settings messed after switching between tabs few times;
+* Added an option to let repeatable reminders work continuously even if there is no activity on the channel;
+* Some small fixes and improvements.
+
 ### Version 9.8
 
 * Zalgo filter now ignores mentions;
