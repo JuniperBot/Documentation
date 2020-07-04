@@ -4,6 +4,16 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.10
+
+* Message templates improvements:
+  * A strict mode has been implemented which means that attempt to access undefined variable or non-existent property/function will lead to template compilation error;
+  * **Embed** now supports update existent message by its id \(`update` function instead of `send`\);
+  * New `everyone/here` mention control. In case if they are forbidden, they will not be masked by invisible character but disabled;
+* Auto-moderation links filter now will not trigger on the invites created for your own server \(requires **Manage Server** permission\);
+* Fixed an issue with duplicated command executions;
+* Some small fixes and improvements.
+
 ### Version 9.9
 
 * Fixed broken `викифур/wikifur` command;
