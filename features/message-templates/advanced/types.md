@@ -771,7 +771,29 @@ description: 'Типы данных, используемые в шаблонн�
         &#x431;&#x44B;&#x43B;&#x43E; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;
         &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x43E;.</td>
       <td
-      style="text-align:center">1*</td>
+      style="text-align:center">2*</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>update(Id)</code>
+      </td>
+      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x427;&#x438;&#x441;&#x43B;&#x43E;</a>
+      </td>
+      <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x41B;&#x43E;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;</a>
+      </td>
+      <td style="text-align:left">
+        <p>&#x41E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;
+          &#x441; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x43C;
+          &#x438;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x43E;&#x43C;
+          &#x43D;&#x430; &#x44D;&#x442;&#x443; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C;.
+          &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; <code>true</code>,
+          &#x435;&#x441;&#x43B;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;
+          &#x431;&#x44B;&#x43B;&#x43E; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;
+          &#x43E;&#x442;&#x440;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43E;.</p>
+        <p></p>
+        <p><b>&#x41C;&#x43E;&#x436;&#x43D;&#x43E; &#x440;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x430;&#x43C;&#x43E;&#x433;&#x43E; &#x431;&#x43E;&#x442;&#x430;!</b>
+        </p>
+      </td>
+      <td style="text-align:center">2*</td>
     </tr>
   </tbody>
 </table>
