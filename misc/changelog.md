@@ -4,6 +4,17 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.11
+
+* Message templates improvements:
+  * Now you can activate strict mode manually, check `use` tag in a documentation;
+  * Dates are now display in correct language by default without using `date` function;
+* Fixed a message about unknown user in ban command;
+* Added a `разбан/unban` command allowing to unban member by his ID, name or tag;
+* Command `сервер/serverinfo` updated;
+* Command `очистить/clear` updated;
+* Some small fixes and improvements.
+
 ### Version 9.10
 
 * Message templates improvements:
