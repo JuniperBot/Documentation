@@ -4,6 +4,13 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.12
+
+* Fixed an issue with Forest Fuss DM actions not worked correctly;
+* Command help message accessed by `?` sign will not be deleted anymore;
+* Command `юзер/user` now shows Spotify playback information;
+* Some small fixes and improvements.
+
 ### Version 9.11
 
 * Message templates improvements:
