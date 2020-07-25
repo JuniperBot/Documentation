@@ -4,6 +4,15 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.13
+
+* Command `сервер/serverinfo` improvements:
+  * Removed "Cached" entry;
+  * Displays server's banner if exists;
+* **\[Music\]** Added a `продвинуть/promote` command allowing to promote specified song as next in playback queue;
+* Command `бонус/bonus` now has an option to show payment list;
+* Some small fixes and improvements.
+
 ### Version 9.12
 
 * Fixed an issue with Forest Fuss DM actions not worked correctly;
