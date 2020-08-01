@@ -4,6 +4,16 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.14
+
+* vk.com integration improvements:
+  * Updated API version to 5.101;
+  * Added a reposts support;
+  * Added an ability to filter posts using keywords;
+  * Added an ability to specify custom message \(useful for roles mentions\);
+* Fixed an issue when flood auto-moderation filter triggered for message updates;
+* Some small fixes and improvements.
+
 ### Version 9.13
 
 * Command `сервер/serverinfo` improvements:
