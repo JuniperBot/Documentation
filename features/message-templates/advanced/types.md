@@ -351,6 +351,7 @@ description: 'Типы данных, используемые в шаблонн�
 | `id` | [Число](syntax/expressions.md#primitivy) | Уникальный идентификатор роли |
 | `name` | [Строка](syntax/expressions.md#primitivy) | Название роли |
 | `position` | [Число](syntax/expressions.md#primitivy) | Номер позиции роли |
+| `createdAt` | [Date](https://app.gitbook.com/@juniperbot/s/juniperbot/~/drafts/-MFapkHGWOiALpYGRJU4/features/message-templates/advanced/functions#date) | Дата и время создания роли |
 | `permissionsRaw` | [Число](syntax/expressions.md#primitivy) | Числовое представление всех разрешений этой роли |
 | `managed` | [Логический](syntax/expressions.md#primitivy) | Признак того, управляется ли эта роль интеграцией |
 | `hoisted` | [Логический](syntax/expressions.md#primitivy) | Признак того, отображаются ли участники с этой ролью отдельно в списке участников |
