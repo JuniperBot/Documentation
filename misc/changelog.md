@@ -4,6 +4,18 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.15
+
+* vk.com integration improvements:
+  * Added an option to hide community URL in post footers;
+  * Fixed an issue when URLs containing markdown characters were broken;
+* Moderation audit logs like ban/kick/mute/warn now contains the link to command or infraction message;
+* Added an option to restore all starting roles on member's rejoin;
+* Fixed an issue with embed color of `лис/fox` command;
+* Fixed an issue with hidden owner of `сервер/serverinfo` command;
+* **\[web\]** Fixed an issue when shard searching by server id worked incorrectly;
+* Some small fixes and improvements.
+
 ### Version 9.14
 
 * vk.com integration improvements:
