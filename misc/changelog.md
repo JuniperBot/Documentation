@@ -4,6 +4,16 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.16
+
+* Some `осебе/bio` command improvements;
+* **\[web\]** Message templates improvements:
+  * Toolbar improvements \(link, roles, channels insertion\);
+  * Template engine now supports Elvis operator \(`<expression> ?: <default_value>`\);
+* Fixed an issue with member names broken in titles of `юзер/user`, `аватар/avatar` commands if they contained Markdown sequences;
+* Fixed an issue with auto-moderation links trigger not worked correctly with empty whitelist;
+* Some small fixes and improvements.
+
 ### Version 9.15
 
 * vk.com integration improvements:
