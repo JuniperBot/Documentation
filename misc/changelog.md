@@ -4,6 +4,18 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.17
+
+* **\[web\]** Added a moderation option allowing moderators with higher role to punish other moderators with lower role;
+* **\[web\]** Message templates improvements:
+  * Added a new global variable `bot` as Member instance of bot;
+  * Attributes references improvements;
+* `лидеры/leaders` command now accepts emojis as sort options \(🏆 \| 🎤 \| 🍪\);
+* Fixed an issue with YouTube channel search at subscriptions;
+* Fixed an issue with clear command cleared webhooks messages with specified member;
+* Fixed an issue with member names broken in titles of `лидеры/leaders` commands if they contained Markdown sequences;
+* Some small fixes and improvements.
+
 ### Version 9.16
 
 * Some `осебе/bio` command improvements;
