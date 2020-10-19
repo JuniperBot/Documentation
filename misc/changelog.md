@@ -4,6 +4,13 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.18
+
+* Fixed an issue with existing permission overrides in text channels getting granted send message permission for unmuted members \(now it clears into "/"\);
+* Fixed an issue with member names broken in titles of some commands if they contained Markdown sequences \(moderation, music\);
+* Fixed an issue with YouTube music searching;
+* Some small fixes and improvements.
+
 ### Version 9.17
 
 * **\[web\]** Added a moderation option allowing moderators with higher role to punish other moderators with lower role;
