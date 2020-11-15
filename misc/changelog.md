@@ -4,6 +4,12 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.19
+
+* **\[audit\]** Audit system now works over webhooks instead of sending messages directly;
+* Implemented a lot of internal optimizations and stability improvements;
+* Some small fixes and improvements.
+
 ### Version 9.18
 
 * Fixed an issue with existing permission overrides in text channels getting granted send message permission for unmuted members \(now it clears into "/"\);
