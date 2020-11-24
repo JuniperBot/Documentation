@@ -4,6 +4,16 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.20
+
+* Discord Reply feature integration:
+  * Bot now replies to commands \(both internal and custom\);
+  * Auto-Moderation now replies to infractions;
+  * Reminders now replies to commands created them \(works only with newly created reminders\);
+  * It is possible to turn it on and off in common settings of dashboard \(disabled by default\);
+* Fixed an issue with mute role restored on re-join even if mute is not valid anymore;
+* Some small fixes and improvements.
+
 ### Version 9.19
 
 * **\[audit\]** Audit system now works over webhooks instead of sending messages directly;
