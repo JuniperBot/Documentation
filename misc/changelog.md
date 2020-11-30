@@ -4,6 +4,13 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.21
+
+* Fixed an issue with voice role removed if user switched between voice channels with the same role assigned;
+* Fixed an issue with messages weren't deleted for mutes members if their messages are replies;
+* Fixed an issue with mute role restoring for rejoined members;
+* Some small fixes and improvements.
+
 ### Version 9.20
 
 * Discord Reply feature integration:
