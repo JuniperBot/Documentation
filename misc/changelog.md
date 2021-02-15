@@ -4,6 +4,35 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.22
+
+#### Music
+
+* Update Lavaplayer library base to the latest at the moment \(1.3.67\);
+* Fixed an issues with SoundCloud playback.
+
+#### Dashboard
+
+* Audit settings now has a hint with useful information about webhooks management;
+* Content length of alias custom command now accepts up to 20000 characters reserved for template engine code;
+* Added an option to disable reposts publishing in Vk.com subscriptions;
+* Added an option to disable public ranking Web page.
+
+#### Moderation
+
+* Added a success/error emoji icons to corresponding command messages;
+* Added a success messages for `бан/ban` and `кик/kick` commands with detailed information;
+* Reasons of `бан/ban` now contains a duration if specified;
+* Improved information content of `очистить/clear` command;
+* Added an option to words filter allowing matching only whole words whitespace separated or partial matches;
+* Auto-moderation filter notifications can't be sent to direct messages anymore \(I'm sorry\);
+* Owner's messages will not be deleted anymore in case owner has muted role assigned.
+
+#### Other
+
+* Fixed an issue with `ранг/rank` command when it always mentioned members if replies system were enabled;
+* Some internal fixes and improvements.
+
 ### Version 9.21
 
 * Fixed an issue with voice role removed if user switched between voice channels with the same role assigned;
