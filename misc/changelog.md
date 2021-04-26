@@ -4,6 +4,36 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.23
+
+#### Web
+
+* Website interface was slightly updated to match actual Material Design guidelines;
+* New "Notifications" dashboard section as replacement for welcoming section:
+  * Welcome/leave notifications settings was moved here;
+  * Added a new notification for Nitro Boost servers \(it has few limitations, check explanation message in dashboard\);
+  * Added an options to disable ban/kick/warn DM notifications;
+* Starting roles and roles restore settings were moved to Common settings;
+* Allowed/ignored channel settings now contains a channel categories available for selection;
+* Added an options to specify Minimal time duration between notifications for Twitch subscriptions;
+
+#### Template engine
+
+* Added an option to add a message reactions to the template message itself and to `createEmbed` builder;
+  * **Note:** It is limited to 1 reaction per message for servers without bonus and to 5 reactions per messages for servers with bonuses;
+* Added a new variable with server boost count: `{{ guild.boostCount }}`;
+
+#### Other
+
+* Added a "Member screening" support. Now bot will not any starting roles until member successfully pass the member screening and agree with server rules;
+* `reminder/напоминание` command now supports "today" syntax, just specify time without date;
+* Fixed an issue with unmute in private channels in case if muted member was granted an access to this channel using direct permission overrides;
+* Fixed an issue with mute caused by managed role access rights update mechanism:
+  * **Note:** You can enable managed role back again if you disabled it because this issue;
+* Fixed an issue with the audit unwarn messages were sent even if those warns were removed earlier;
+* Fixed an issue with forest fuss when single person could get a few player positions in lobby;
+* Some internal fixes and improvements.
+
 ### Version 9.22
 
 #### Music
