@@ -4,6 +4,11 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 9.24
+
+* Implemented a more reliable way to notify about server boosting. Discord's own boost notification must be enabled in order to get this notification working \(it is possible to delete it though\);
+* Some internal fixes and improvements.
+
 ### Version 9.23
 
 #### Web
