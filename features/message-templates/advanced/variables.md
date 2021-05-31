@@ -23,9 +23,7 @@ description: Краткая справка по настройке шаблон�
       </td>
       <td style="text-align:left"><a href="types.md#guild">Guild</a>
       </td>
-      <td style="text-align:left">&#x414;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43E; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x435;
-        (&#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435;
-        &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x430;)</td>
+      <td style="text-align:left">&#x414;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43E; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x435;</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>bot</code>
@@ -33,8 +31,7 @@ description: Краткая справка по настройке шаблон�
       <td style="text-align:left"><a href="types.md#member">Member</a>
       </td>
       <td style="text-align:left">&#x42D;&#x43A;&#x437;&#x435;&#x43C;&#x43F;&#x43B;&#x44F;&#x440; JuniperBot
-        &#x43A;&#x430;&#x43A; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x430;
-        (&#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442; &#x443;&#x43F;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43D;&#x438;&#x435;)</td>
+        &#x43A;&#x430;&#x43A; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x430;</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>member</code>
@@ -43,8 +40,7 @@ description: Краткая справка по настройке шаблон�
       </td>
       <td style="text-align:left">&#x42D;&#x43A;&#x437;&#x435;&#x43C;&#x43F;&#x43B;&#x44F;&#x440; &#x443;&#x447;&#x430;&#x441;&#x442;&#x43D;&#x438;&#x43A;&#x430;,
         &#x441;&#x432;&#x44F;&#x437;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E;
-        &#x441; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x43E;&#x43C; (&#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442;
-        &#x443;&#x43F;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43D;&#x438;&#x435;)</td>
+        &#x441; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x43E;&#x43C;</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>channel</code>
