@@ -7,10 +7,9 @@
 * [Text Commands](cmd/text/README.md)
   * [Arguments](cmd/text/arguments.md)
 * [Custom Commands](cmd/custom/README.md)
-  * [Simple Command](cmd/custom/simple-command.md)
   * [Message](cmd/custom/message.md)
   * [Alias](cmd/custom/alias.md)
-  * [Changing roles](cmd/custom/changing-roles.md)
+  * [Changing Roles](cmd/custom/changing-roles.md)
 
 ## Features
 
@@ -25,6 +24,7 @@
   * [Mentions](features/auto-moderation/mentions.md)
   * [Zalgo](features/auto-moderation/zalgo.md)
 * [Message Templates](features/message-templates/README.md)
+  * [User Interface](features/message-templates/ui.md)
   * [Beginners](features/message-templates/beginners/README.md)
     * [Variables](features/message-templates/beginners/variables.md)
   * [Advanced](features/message-templates/advanced/README.md)

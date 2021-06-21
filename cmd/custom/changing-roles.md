@@ -1,8 +1,8 @@
 ---
-description: Command with the "Changing roles" type is used for adding or removing roles.
+description: '"Changing roles" command type is used for adding or removing roles.'
 ---
 
-# Changing roles
+# Changing Roles
 
 ## How it is useful? <a id="why"></a>
 
@@ -12,13 +12,13 @@ You can use this command to let the member's add or remove certain roles for the
 
 * The bot cannot add or remove roles that are higher in the roles hierarchy than its own roles. 
 * In order for the bot to let modify member's roles, bot must be granted "Manage roles" permission. 
-* The "Modify roles of @mentioned member" check box will allow to perform roles modification not just for themselves, but for any mentioned member too.
+* The "Modify roles of @mentioned member" checkbox will allow to perform roles modification not just for themselves, but for any mentioned member too.
 
 {% hint style="warning" %}
-If you use the command to assign roles to @mentioned members, be sure to restrict its use in the "permissions and execution" settings for your own use-case, otherwise anyone can access the roles specified in the command.
+If you use the command to assign roles to @mentioned members, be sure to configure its access rights for your own use-case, otherwise anyone can access the roles specified in the command.
 {% endhint %}
 
-## Creating a command with the "changing roles" type <a id="creating"></a>
+## Example <a id="example"></a>
 
 A few simple steps:
 

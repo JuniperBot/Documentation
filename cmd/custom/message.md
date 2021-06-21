@@ -1,53 +1,42 @@
 ---
 description: >-
-  Command type "Message" — invocation of such command will result in simple
-  response with the specified text or embed.
+  "Message" command type is used to send a simple response with the specified
+  text or embed and perform some other actions using our template engine.
 ---
 
 # Message
 
 ## How it is useful? <a id="why"></a>
 
-You can use this type of command to provide users with some useful information in text form or in a beautifully designed embed. At the same time, you can configure roles granting by clicking on reactions.
+You can use this type of command to provide users with some useful information in text form or in a beautifully designed embed. At the same time, you can configure roles add/remove by clicking on reactions.
 
 ## The behavior and settings <a id="settings"></a>
 
-In this type of command, you can choose two sending modes — text and embed:
+Message custom command uses default [Message Template interface](../../features/message-templates/ui.md) with additional option to add reaction roles.
 
-### Mode "Text" <a id="text"></a>
+## Example
 
-![](../../.gitbook/assets/oaoaommm-20-04-15-17-40-46.png)
+Let's say you need a simple command that responses back with some text. You can create it simply:
 
-Numbers indicates interface elements, which are explained below:
+1. Go to [server's dashboard](../../#configure) and custom commands tab of your server;
+2. Click "Add new command" button:
 
-1 — Switch between the first and second sending mode;   
-2, 3, 4 — Formatting the text inside the message template as bold, italic or underlined, respectively. To use it select the desired part of the text in the message template and click the desired formatting button;   
-5 — Selecting templates for the template engine;  
-6 — Emoji Picker. Here you can choose standard or server emojis if you want to use them in your message \(server emojis are at the bottom of the list\);   
-7 — Button to open documentation for custom commands;   
-8 — Selection of the channel to send this message to. If the channel is not specified, the message will be sent to the channel where this command was invoked.  
-9 — Preview Button of the message. By clicking on it, you can see how the message will look on the Discord;  
-10 — The message text. You can use various [template variables](https://docs.juniper.bot/v/english/features/template-variables) here;   
-11 — Button that will stretch the message template to the entire page area;  
-12 — A check Mark that allows you to enable the Text-to-Speech of the message by a special hamster robot;   
-13 — A Field where you can specify the number of seconds after which the message will be deleted;   
-14, 15 — Functionality for assigning roles for reactions. This feature is only available to those who [supporting](https://juniper.bot/donate) the bot.
+![Adding new command](../../.gitbook/assets/cmd_list_en.png)
 
-### Mode "embed" <a id="embed"></a>
+A command create dialog will open:
 
-![Embed settings](../../.gitbook/assets/image%20%288%29.png)
+![Command Create Dialog](../../.gitbook/assets/cmd_en.png)
 
-The **embed color** is the color of the stripe on the left of the embed. Everything else can be seen in the screenshot below, where all the fields are signed with their own name:
+You can pick the target channel where the response will be sent or leave it empty so it will be sent in the channel where the command invoked.
 
-![Embed fields](../../.gitbook/assets/image%20%2810%29.png)
+"Message Content Template" is the exact content which bot will send back.
 
-The "Author" and "Title" fields can contain a link, which can be specified in the "author Link" and "title Link" settings of the embed, respectively.
+Let's create a "say" command:
 
-If you want to use any images in embed, the links to these images must be direct. For example, [https://imgur.com/a/zdoSlIO](https://imgur.com/a/zdoSlIO) — link to a site with an image, this link is not suitable. And here [https://i.imgur.com/PaTD1ar.jpg](https://i.imgur.com/PaTD1ar.jpg) — link to the image. These are the links you need to specify there.
+1. Enter command name "say";
+2. Pick the "Message" command type;
+3. In "Message Content Template" enter `{{ arguments }}`. It it will be replaced to the exact text you are entered with the command.
+4. Save the command;
 
-If you want to embed a link in the text inside the embed template, you can do this by writing: `[text](link)`. You need to write it without a space between brackets.
-
-Inline fields — these are fields that are inlined into the same row if possible.
-
-You can use [template variables](https://docs.juniper.bot/v/english/features/template-variables) inside any embed values. For example, if you want to replace the author's icon with the avatar of the member who called this command, in "Link to the author's icon" you need to enter `{{ member.avatarUrl }}` there.
+Done! Now if you enter command `!say YIP` the bot will respond you "YIP"!
 

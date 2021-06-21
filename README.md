@@ -23,7 +23,7 @@ description: >-
 * 🏆 **Member Ranking:** Give your members some rewards for their activity on the server!
 * 👋 **Welcome messages**: Configure welcome messages, assign starting roles, restore old roles and nickname if member returns after leaving and more.
 * 💬 **Command**: Configure each commands behaviour - cooldown, roles and channels available to the commands.
-* 📝 **Custom Commands**: Add your own custom commands that returns a simple message, works as an alias to other command, adds/removes roles or make them with more complex programmable behaviour using our [Message Templates](features/message-templates/). They are fully configurable too just like internal commands!
+* 📝 **Custom Commands**: Add your own custom commands that returns a simple message, works as an alias to other command, adds/removes roles or make them with more complex programmable behaviour using our [Message Templates](features/message-templates/). They are fully configurable too just like build-it commands!
 * [🎭](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal) **Fun:** There are also some small fun features like reaction roulette, cookie karma, dogs/cats pictures, 8ball and more.
 
 ## Invite bot to your server <a id="invite"></a>
