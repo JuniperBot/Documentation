@@ -41,7 +41,7 @@ Sometimes. Maybe. Depends on the free time, desire and motivation of the develop
 
 ## How to calculate exp required for level?
 
-Check [Ranking experience](ranking-exp.md) article.
+Check [Ranking experience](../features/ranking/experience.md) article.
 
 
 

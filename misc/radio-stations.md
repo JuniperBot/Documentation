@@ -1,4 +1,4 @@
-# Radio-stations
+# Radio Stations
 
 You can listen some popular radio stations using play command with link to stream you want to listen. You can see full list of supported streams from tables below. For example: `!play http://radio-srv1.11one.ru/record192k.mp3`
 

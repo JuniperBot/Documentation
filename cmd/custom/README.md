@@ -2,7 +2,7 @@
 description: You can create your own commands that can perform certain actions.
 ---
 
-# Custom commands
+# Custom Commands
 
 Custom commands can be created and configured at the server's [control panel](https://docs.juniper.bot/v/english/#configure-bot-for-your-needs) in the tab called "custom commands". You can disable any custom command if necessary and configure the necessary access rights in the same way as the built-in bot commands.
 
