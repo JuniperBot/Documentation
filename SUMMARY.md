@@ -7,6 +7,7 @@
 * [Text Commands](cmd/text/README.md)
   * [Arguments](cmd/text/arguments.md)
 * [Custom Commands](cmd/custom/README.md)
+  * [Simple Command](cmd/custom/simple-command.md)
   * [Message](cmd/custom/message.md)
   * [Alias](cmd/custom/alias.md)
   * [Changing roles](cmd/custom/changing-roles.md)

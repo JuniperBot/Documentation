@@ -26,7 +26,7 @@ description: >-
 * 📝 **Custom Commands**: Add your own custom commands that returns a simple message, works as an alias to other command, adds/removes roles or make them with more complex programmable behaviour using our [Message Templates](features/message-templates/). They are fully configurable too just like internal commands!
 * [🎭](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal) **Fun:** There are also some small fun features like reaction roulette, cookie karma, dogs/cats pictures, 8ball and more.
 
-## Invite bot to your server
+## Invite bot to your server <a id="invite"></a>
 
 To invite the bot to your server:
 
@@ -48,12 +48,12 @@ But we recommend to keep all permission checkboxes selected to let JuniperBot op
 {% endhint %}
 
 {% hint style="info" %}
-Interface and commands language depends on your primary community language in case this feature is enabled on your server. If it is not, English will be selected as default.
+Interface and command's names languages depends on your server primary language in case if [Community](https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server) is enabled on your server. If it is not, English will be selected as default.
 
-Language can be configured in server's dashboard in **Common** section.
+Languages can be configured in server's dashboard in **Common** section.
 {% endhint %}
 
-## Configure bot for your needs
+## Configure bot for your needs <a id="configure"></a>
 
 To configure your bot:
 

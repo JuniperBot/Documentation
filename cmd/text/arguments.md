@@ -2,13 +2,13 @@
 
 ### Duration
 
-Used in commands with specified duration of some action. Written in format of amounts and units without spaces, for example:
+Duration is used in commands with specified duration of some action. It is written in sequence of amounts and units without spaces, for example:
 
 * 1day
 * 1hour
 * 8hours30mins
 
-Below is table of all supported units, their names and short names:
+Check the table below explained all supported units, their names and short names:
 
 | Unit | Name |
 | :--- | :--- |
