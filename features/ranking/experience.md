@@ -2,7 +2,7 @@
 description: Member's Ranking EXP description
 ---
 
-# Ranking Exp
+# Experience
 
 ## Text Comminucation <a id="text"></a>
 

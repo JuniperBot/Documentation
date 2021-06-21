@@ -14,7 +14,7 @@
 ## Features
 
 * [Member Ranking](features/ranking/README.md)
-  * [Ranking Exp](features/ranking/experience.md)
+  * [Experience](features/ranking/experience.md)
 * [Auto-Moderation](features/auto-moderation/README.md)
   * [Link](features/auto-moderation/links.md)
   * [Bad Words](features/auto-moderation/bad-words.md)
