@@ -1,8 +1,8 @@
 ---
 description: >-
-  Hello! You can find here a lot of useful information about our project,
-  command list, answers to frequently asked questions and much more. Please use
-  navigation menu or search!
+  Hello! Welcome to JuniperBot documentation! You can find here a lot of useful
+  information about our project, answers to frequently asked questions and much
+  more. Please use navigation menu and search!
 ---
 
 # Home
