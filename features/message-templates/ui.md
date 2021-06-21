@@ -49,5 +49,5 @@ If you want to embed a link in the text inside the embed template, you can do th
 
 Inline fields — these are fields that are inlined into the same row if possible.
 
-You can use template variables inside any embed values. For example, if you want to replace the author's icon with the avatar of the member, insert `{{ member.avatarUrl }}` "Avatar Url" field.
+You can use template variables inside any embed values. For example, if you want to replace the author's icon with the avatar of the member, insert `{{ member.nickname }}` in "Author" field and `{{ member.avatarUrl }}` in "Avatar Url" field.
 
