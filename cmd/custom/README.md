@@ -23,3 +23,10 @@ Each command has a certain set of general settings regardless of its type:
 2. **Alias** — invocation of such command will be redirected to another build-in command specified in the body of this custom command. For example, if you create a command with the name `me`, enter the `user` in the body, invocation of `!me` will be similar to invocation the built-in command `!user`. Redirection only works on the bot's built-in commands!
 3. **Changing Roles** — invocation of such command will remove or add the roles specified in the command settings. By default, this can only be done by the member who called this command.
 
+## Hotkeys
+
+Command create/edit dialog supports following hotkeys:
+
+* `Сtrl+S` — quick save;
+* `F11` — full screen mode of focused template textarea.
+

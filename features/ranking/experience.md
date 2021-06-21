@@ -1,16 +1,72 @@
+---
+description: Member's Ranking EXP description
+---
+
 # Ranking Exp
 
-## Experience gaining and calculation
+## Text Comminucation <a id="text"></a>
 
-Each time member sends message he will gain random number of EXP from 15 to 25 once per munite. Use command [rank]() to check your or member's progress.
+Each time member sends message in text channel he will gain random amount of EXP from 15 to 25\* once per minute. "rank" command can be used to check the progress.
 
-Experience for each level calculating using this formula:
+{% hint style="info" %}
+15 - 25 is the default range in case if 100% multiplier is the active in ranking settings of [server's dashboard](../../#configure). It will follow this multiplier.
+{% endhint %}
+
+## Voice Communication <a id="voice"></a>
+
+{% hint style="success" %}
+Voice EXP is only available to users [supported us](https://juniper.bot/donate)!
+{% endhint %}
+
+Voice EXP and Voice Activity is calculated only for active users who:
+
+* Have the microphone active and is not muted;
+* Have the sound enabled and is not deafen;
+* Not bots.
+
+Voice EXP per minute in ideal conditions is calculed using following formula:
+
+$$
+exp = 6 * count * multiplier
+$$
+
+* _count_ - amount of active users in voice channel;
+* _multiplier_ - EXP multiplier configured in [server's dashboard](../../#configure) \(100% = 1, 200% = 2 and so on\).
+
+{% hint style="info" %}
+You can \(and should!\) specify the maxumim _count_ value so members will not gain an extremely high EXP amounts in case if a lot of people in the voice channel currently. You can configure it in Member Ranking section of [server's dashboard](../../#configure).
+{% endhint %}
+
+You should keep in mind following things regarding voice EXP and voice activity:
+
+1. EXP and activity is given to active members only if at least two of them currently active in the voice channel;
+2. EXP is cumulative.  It means that if three members are active currently, they will gain **x3 EXP** while they are active.  If one of them left the channel, mutes himself or deafen, he is not active anymore so from this moment the others two will gain **x2 EXP** but they still got all the exp while the third was active.  If second left the channel, muted/deafen too, the last one will not gain any EXP anymore but still got the EXP he gained before the others became inactive.
+
+{% hint style="info" %}
+One minute of talking is not a required minimum. EXP will be given for less time ranges as well, proportionally.
+
+In the other words, 30 seconds of communication members will gain them the half of the EXP they could get for the whole minute according to the formula above.
+{% endhint %}
+
+{% hint style="warning" %}
+**Important!** Note that already accumulated EXP and voice activity will be applied to the rank only after current voice session end if member left the voice channel or changed it.
+
+There will not be any visual change in the ranking while member still in the channel continiously. 
+{% endhint %}
+
+## Levels <a id="levels"></a>
+
+Experience for each level is calculated using this formula:
 
 $$
 exp = 5 * level^2 + 50 * level + 100
 $$
 
-Thus, for the first hundred levels the experience table with the approximate time of continuous communication necessary to obtain this level will look like this:
+{% hint style="info" %}
+Maximum possible level is 999
+{% endhint %}
+
+Thus, for the hundred levels the experience table with the approximate time of continuous communication necessary to obtain this level will look like this:
 
 | Level | EXP until next | Required EXP | Time until next \(minutes\) |
 | :--- | :--- | :--- | :--- |
