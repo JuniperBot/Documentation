@@ -30,7 +30,7 @@ In this mode compiled message template will be sent to the channel as simple tex
 
 ## Embed Mode <a id="embed-mode"></a>
 
-In this mode compiled message template will be sent as Embed message\). It's basic interface is almost the same as text mode added the embed description content and embed-related settings:
+In this mode compiled message template will be sent as Embed message. Its basic interface is almost the same as text mode added the embed description content and embed-related settings:
 
 ![Embed Settings Interface](../../.gitbook/assets/embed_en.png)
 
