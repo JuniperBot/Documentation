@@ -4,8 +4,8 @@
 
 ## Команды <a id="cmd"></a>
 
-* [Вызов команд](cmd/invoke/README.md)
-  * [Аргументы команд](cmd/invoke/arguments.md)
+* [Текстовые команды](cmd/text/README.md)
+  * [Аргументы](cmd/text/arguments.md)
 * [Пользовательские команды](cmd/custom-commands/README.md)
   * [Создание простой команды](cmd/custom-commands/simple-command.md)
   * [Сообщение](cmd/custom-commands/message.md)
@@ -16,14 +16,14 @@
 
 * [Рейтинг участников](features/ranking/README.md)
   * [Опыт в рейтинге](features/ranking/experience.md)
-* [Автомодерация](features/automoderation/README.md)
-  * [Ссылки](features/automoderation/links.md)
-  * [Плохие слова](features/automoderation/bad-words.md)
-  * [Повторяемый текст](features/automoderation/flood.md)
-  * [Caps Lock](features/automoderation/caps-lock.md)
-  * [Эмоции](features/automoderation/emotes.md)
-  * [Упоминания](features/automoderation/mentions.md)
-  * [Zalgo](features/automoderation/zalgo.md)
+* [Автомодерация](features/auto-moderation/README.md)
+  * [Ссылки](features/auto-moderation/links.md)
+  * [Плохие слова](features/auto-moderation/bad-words.md)
+  * [Повторяемый текст](features/auto-moderation/flood.md)
+  * [Caps Lock](features/auto-moderation/caps-lock.md)
+  * [Эмоции](features/auto-moderation/emotes.md)
+  * [Упоминания](features/auto-moderation/mentions.md)
+  * [Zalgo](features/auto-moderation/zalgo.md)
 * [Шаблоны сообщений](features/message-templates/README.md)
   * [Новичкам](features/message-templates/beginners/README.md)
     * [Переменные шаблонов](features/message-templates/beginners/variables.md)
@@ -35,10 +35,10 @@
     * [Теги](features/message-templates/advanced/tags.md)
     * [Функции](features/message-templates/advanced/functions.md)
     * [Типы данных](features/message-templates/advanced/types.md)
-    * [Входные данные](features/message-templates/advanced/variables.md)
+    * [Входные данные](features/message-templates/advanced/input.md)
   * [Полезные примеры](features/message-templates/examples.md)
 * [Переменные шаблонов \(устарело\)](features/template-variables.md)
-* [Лесная Возня](features/lesnaya-voznya.md)
+* [Лесная Возня](features/forest-fuss.md)
 * [Калькулятор](features/calculator.md)
 
 ## Прочее <a id="misc"></a>
