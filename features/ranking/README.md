@@ -4,7 +4,7 @@ description: Member Ranking system description
 
 # Member Ranking
 
-### Enable Member Ranking <a id="enable"></a>
+## Enable Member Ranking <a id="enable"></a>
 
 Member Ranking system is disabled by default, you can enable it in "Member Ranking" section of your [server's dashboard](../../#configure).
 
@@ -14,7 +14,7 @@ Also, you can configure it for your own needs: specify ignored roles and channel
 Use [Ranking Exp](experience.md) article to understand how EXP is calculated.
 {% endhint %}
 
-### Cookie Box <a id="cookies"></a>
+## Cookie Box
 
 Member Ranking system also includes a karma or reputation system called "Cookie Box". It is a simple counter you can increment in the following ways:
 
@@ -24,6 +24,14 @@ Member Ranking system also includes a karma or reputation system called "Cookie 
 {% hint style="info" %}
 Cookie Box increment is rate-limited between members to not let them abuse it so they can give a cookie only once in 10 minutes.
 {% endhint %}
+
+## Public Ranking Page <a id="public-page"></a>
+
+Public Ranking Page is the dedicated webpage wil the same member's ranking list as you have in [server's dashboard](../../#configure) in Member Ranking section. You can enable it there as well so it will be available at "leaders" command or by the following URL:
+
+```text
+https://juniper.bot/ranking/<SERVER_ID>
+```
 
 ## Ranking Card <a id="ranking-card"></a>
 
