@@ -13,10 +13,10 @@ description: >-
 
 **JuniperBot** is a multipurpose customizable Discord Bot with bunch of fun and useful features for most of your server needs! You can configure it using fancy dashboard at [https://juniper.bot](https://juniper.bot/).
 
- Here is short review that this fluffy foxy can do:
+ Here is short review what this fluffy foxy can do:
 
-* ⚙️ **Common**: You can change prefix, command and interface language and some more. English and Russian languages are supported for both dashboard and bot itself!
-* 🎵 **Music \($2 bonus tier\):** You can play music from most common sources like YouTube, SoundCloud, BandCamp, Vimeo, [Twitch.tv](http://twitch.tv/), Yandex.Music and even some radiostations. You can configure behaviour like restrict music controlling to specified DJ-Roles, configure playback limitations and more!
+* ⚙️ **General functions**: You can change prefix, command and interface language and other stuff. English and Russian languages are supported for both dashboard and bot itself!
+* 🎵 **Music \($2 bonus tier\):** You can play music from a lot sources like YouTube, SoundCloud, BandCamp, Vimeo, [Twitch.tv](http://twitch.tv/), Yandex.Music and even some radiostations. You can configure behaviour like allow to control playback only to specified DJ-Roles, playlist limitations and more!
 * 🛡️ **Moderation:** moderate your server easily with useful moderation commands, temp bans, warns, mute and even set up an auto-moderation;
 * [📚](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal) **Audit:** You can keep history of member actions like moderation, message delete/edit, member joining/leaving and more. You can review them in dashboard or even in separate logging channel on your server! \($2 tier\)
 * [📢](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal) **Subscriptions:** You can configure subscriptions to your own Vkontakte community or any [Twitch.tv](http://twitch.tv/) and YouTube channels.
