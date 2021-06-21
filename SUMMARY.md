@@ -16,7 +16,7 @@
 * [Member Ranking](features/ranking/README.md)
   * [Experience](features/ranking/experience.md)
 * [Auto-Moderation](features/auto-moderation/README.md)
-  * [Link](features/auto-moderation/links.md)
+  * [Links](features/auto-moderation/links.md)
   * [Bad Words](features/auto-moderation/bad-words.md)
   * [Repeated Text](features/auto-moderation/flood.md)
   * [Caps Lock](features/auto-moderation/caps-lock.md)
