@@ -15,6 +15,6 @@ description: >-
 {% endhint %}
 
 {% hint style="info" %}
-Переменные шаблонов, доступные для использования в уведомлении о нарушении этого фильтра, можно посмотреть [здесь](../message-templates/advanced/input.md#filtr-emocii).
+Переменные шаблонов, доступные для использования в уведомлении о нарушении этого фильтра, можно посмотреть [здесь](../message-templates/advanced/variables.md#filtr-emocii).
 {% endhint %}
 

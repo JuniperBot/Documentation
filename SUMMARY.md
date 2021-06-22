@@ -35,7 +35,7 @@
     * [Теги](features/message-templates/advanced/tags.md)
     * [Функции](features/message-templates/advanced/functions.md)
     * [Типы данных](features/message-templates/advanced/types.md)
-    * [Входные данные](features/message-templates/advanced/input.md)
+    * [Переменные](features/message-templates/advanced/variables.md)
   * [Полезные примеры](features/message-templates/examples.md)
 * [Переменные шаблонов \(устарело\)](features/template-variables.md)
 * [Лесная Возня](features/forest-fuss.md)

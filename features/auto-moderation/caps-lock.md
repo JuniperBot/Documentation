@@ -16,6 +16,6 @@ description: >-
 {% endhint %}
 
 {% hint style="info" %}
-Переменные шаблонов, доступные для использования в уведомлении о нарушении этого фильтра, можно посмотреть [здесь](../message-templates/advanced/input.md#filtr-caps-lock).
+Переменные шаблонов, доступные для использования в уведомлении о нарушении этого фильтра, можно посмотреть [здесь](../message-templates/advanced/variables.md#filtr-caps-lock).
 {% endhint %}
 
