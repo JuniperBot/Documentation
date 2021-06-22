@@ -39,7 +39,7 @@ It is also possible to represent collections of key and value pairs, so called m
 { key1: 'value1', 'key 2': 'value2' }
 ```
 
- Keep in mind that identifiers used to represent the key elements are not used as variable placeholders, instead, they are converted to their String representation. For example, the identifier `key1` shown above will be converted to the String value `"key1"`.
+Keep in mind that identifiers used to represent the key elements are not used as variable placeholders, instead, they are converted to their String representation. For example, the identifier `key1` shown above will be converted to the String value `"key1"`.
 
 ### List or Map Value Access <a id="access"></a>
 
