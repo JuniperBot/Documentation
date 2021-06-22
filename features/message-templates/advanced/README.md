@@ -8,7 +8,7 @@ description: Message Templates guide for advanced users
 
 ## Intro <a id="intro"></a>
 
-If you managed to open this article, then you are ready to familiarize yourself with the power of the template engine. Probably.
+If you managed to open this article, then you are brave enough ready to familiarize yourself with the power of the template engine. Probably.
 
 This section will require a basic programming skills:
 
