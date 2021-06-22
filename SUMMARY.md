@@ -6,10 +6,10 @@
 
 * [Текстовые команды](cmd/text/README.md)
   * [Аргументы](cmd/text/arguments.md)
-* [Пользовательские команды](cmd/custom-commands/README.md)
-  * [Сообщение](cmd/custom-commands/message.md)
-  * [Перенаправление](cmd/custom-commands/alias.md)
-  * [Изменение ролей](cmd/custom-commands/roles-changing.md)
+* [Пользовательские команды](cmd/custom/README.md)
+  * [Сообщение](cmd/custom/message.md)
+  * [Перенаправление](cmd/custom/alias.md)
+  * [Изменение ролей](cmd/custom/changing-roles.md)
 
 ## Возможности <a id="features"></a>
 
