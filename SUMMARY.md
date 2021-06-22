@@ -35,7 +35,7 @@
     * [Tags](features/message-templates/advanced/tags.md)
     * [Functions](features/message-templates/advanced/functions.md)
     * [Data Types](features/message-templates/advanced/types.md)
-    * [Input Data](features/message-templates/advanced/variables.md)
+    * [Variables](features/message-templates/advanced/variables.md)
   * [Examples](features/message-templates/examples.md)
 * [Template Variables \(Deprecated!\)](features/template-variables.md)
 * [Forest Fuss](features/forest-fuss.md)
