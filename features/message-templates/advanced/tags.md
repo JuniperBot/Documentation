@@ -179,7 +179,7 @@ This `loop` variable is only bound to the `for` context, it means this variable 
 
 The previous template will print `1 2`. Note that setting `loop` inside the for loop will write to the context, but won't override the for loop bound variable. The value `loop` variable defined inside the loop is then available outside of the loop scope.
 
-## Прочее <a id="other"></a>
+## Other <a id="other"></a>
 
 ### `filter`
 
