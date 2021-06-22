@@ -20,7 +20,7 @@ If you're not into those things at all but just want to know how to insert varia
 
 Despite the fact that this guide is for the advanced users, it is still written as simple as possible for such things. Please be patient and read the entire section carefully before trying to do something.
 
-If everything still seems too complicated and you do not understand what is happening here at all, try to do something based on the [Examples](../examples.md). Don't be afraid to experiment.
+If everything still seems too complicated and you do not understand what is going on here at all, try to do something based on the [Examples](../examples.md). Don't be afraid to experiment.
 
 ## Okay, I'm ready! What's next? <a id="ready"></a>
 
