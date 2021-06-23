@@ -668,7 +668,7 @@ description: 'Типы данных, используемые в шаблонн�
       style="text-align:center">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>addReaction(&#x420;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x44F;)</code>
+      <td style="text-align:left"><code>addReaction(&#x42D;&#x43C;&#x43E;&#x446;&#x438;&#x44F;)</code>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>
       </td>
@@ -680,6 +680,37 @@ description: 'Типы данных, используемые в шаблонн�
         &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; <a href="functions.md#reaction">reaction</a>.</td>
       <td
       style="text-align:center">-</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>addButton(<br />  &#x422;&#x438;&#x43F;,<br />  URL,<br />  &#x422;&#x435;&#x43A;&#x441;&#x442;,<br />  &#x42D;&#x43C;&#x43E;&#x446;&#x438;&#x44F;<br />)</code>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>&#x422;&#x438;&#x43F;:
+            <br /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>
+          </li>
+          <li>URL:
+            <br /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>
+          </li>
+          <li>&#x422;&#x435;&#x43A;&#x441;&#x442;:
+            <br /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>
+          </li>
+          <li>&#x42D;&#x43C;&#x43E;&#x446;&#x438;&#x44F;
+            <br />(&#x43E;&#x43F;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;):
+            <br
+            /><a href="syntax/expressions.md#primitivy">&#x421;&#x442;&#x440;&#x43E;&#x43A;&#x430;</a>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left"><a href="types.md#embed">Embed</a>
+      </td>
+      <td style="text-align:left">&#x414;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x443;
+        &#x43A; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44E;.
+        &#x420;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442; &#x430;&#x43D;&#x430;&#x43B;&#x43E;&#x433;&#x438;&#x447;&#x43D;&#x43E;
+        &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; <a href="functions.md#button">button</a>.</td>
+      <td
+      style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left"><code>withDate(&#x414;&#x430;&#x442;&#x430;)</code>
