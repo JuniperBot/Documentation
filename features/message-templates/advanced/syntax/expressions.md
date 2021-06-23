@@ -137,24 +137,22 @@ Unary operators by definition only need one argument, Template Engine comes with
     <tr>
       <td style="text-align:left"><code>-</code>
       </td>
-      <td style="text-align:left">&#x41C;&#x435;&#x43D;&#x44F;&#x435;&#x442; &#x437;&#x43D;&#x430;&#x43A;</td>
-      <td
-      style="text-align:left">5</td>
-        <td style="text-align:left"><code>-(-1)</code> outputs <code>1</code>
-        </td>
+      <td style="text-align:left">Switches the signal</td>
+      <td style="text-align:left">5</td>
+      <td style="text-align:left"><code>-(-1)</code> outputs <code>1</code>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><code>not</code>
       </td>
-      <td style="text-align:left">&#x41E;&#x442;&#x440;&#x438;&#x446;&#x430;&#x43D;&#x438;&#x435;</td>
-      <td
-      style="text-align:left">10</td>
-        <td style="text-align:left">
-          <p><code>not false</code> outputs <code>true</code>
-          </p>
-          <p><code>not true</code> outputs <code>false</code>
-          </p>
-        </td>
+      <td style="text-align:left">Negates the input</td>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">
+        <p><code>not false</code> outputs <code>true</code>
+        </p>
+        <p><code>not true</code> outputs <code>false</code>
+        </p>
+      </td>
     </tr>
   </tbody>
 </table>

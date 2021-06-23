@@ -38,7 +38,7 @@ These variables are used in Auto-Moderation Filters for violation notifications.
 | :--- | :--- | :--- |
 | `infraction.linkUrl` | [String](syntax/expressions.md#literals)​ | Detected link |
 | `infraction.inviteCode` | [String](syntax/expressions.md#literals)​ | Detected invite code |
-| `infraction.inviteUrl` | [String](syntax/expressions.md#literals)​ | Detected invite link `discord.gg/<код>` |
+| `infraction.inviteUrl` | [String](syntax/expressions.md#literals)​ | Detected invite link `discord.gg/<code>` |
 
 #### Bad Words Filter <a id="filtr-plokhie-slova"></a>
 

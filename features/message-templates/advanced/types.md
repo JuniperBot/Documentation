@@ -132,14 +132,13 @@ This data type describes all available data about the member and operations over
         <td style="text-align:left">1*</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>addRoles(Role)</code>
+      <td style="text-align:left"><code>addRoles(Roles)</code>
       </td>
       <td style="text-align:left"><a href="syntax/expressions.md#lists">List</a>&lt;<a href="syntax/expressions.md#literals">Number</a>(ID)&gt;</td>
       <td
       style="text-align:left">&#x200B;<a href="syntax/expressions.md#literals">Boolean</a>&#x200B;</td>
         <td
-        style="text-align:left">Adds roles to the member &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435;
-          &#x440;&#x43E;&#x43B;&#x438;. Returns <code>true</code> if member roles were
+        style="text-align:left">Adds roles to the member. Returns <code>true</code> if member roles were
           updated.</td>
           <td style="text-align:left">1*</td>
     </tr>
@@ -520,9 +519,8 @@ This data type describes the Embed message builder.‌ All the methods returns t
         <ul>
           <li>Content:
             <br /><a href="syntax/expressions.md#literals">String</a>&#x200B;</li>
-          <li>IconURL (&#x43E;&#x43F;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;):
-            <br
-            /><a href="syntax/expressions.md#literals">String</a>&#x200B;</li>
+          <li>IconURL (optional):
+            <br /><a href="syntax/expressions.md#literals">String</a>&#x200B;</li>
         </ul>
       </td>
       <td style="text-align:left"><a href="types.md#embed">&#x200B;Embed</a>&#x200B;</td>
@@ -530,15 +528,48 @@ This data type describes the Embed message builder.‌ All the methods returns t
       <td style="text-align:left">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>addReaction(Reaction)</code>
+      <td style="text-align:left"><code>addReaction(Emote)</code>
       </td>
       <td style="text-align:left">&#x200B;<a href="syntax/expressions.md#literals">String</a>&#x200B;</td>
       <td
       style="text-align:left"><a href="types.md#embed">&#x200B;Embed</a>&#x200B;</td>
         <td style="text-align:left">Adds a reaction to the resulting message of this embed. Works the same
-          as <a href="https://app.gitbook.com/@juniperbot/s/juniperbot/features/message-templates/advanced/functions#reaction">reaction</a> function.</td>
-        <td
-        style="text-align:left">&#x200B;-</td>
+          as <a href="functions.md#reaction">reaction</a> function.</td>
+        <td style="text-align:left">&#x200B;-</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><code>addButton(</code>
+        </p>
+        <p><code>  Type,<br />  URL,<br />  Content,<br />  Emote<br />)</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>Type:
+            <br /><a href="syntax/expressions.md#literals">String</a>
+          </li>
+          <li>URL:
+            <br /><a href="syntax/expressions.md#literals">String</a>
+          </li>
+          <li>Content:
+            <br /><a href="syntax/expressions.md#literals">String</a>
+          </li>
+          <li>
+            <p>Emote
+              <br />(optional):</p>
+            <p><a href="syntax/expressions.md#literals">String</a>
+            </p>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left"><a href="types.md#embed">&#x200B;Embed</a>
+      </td>
+      <td style="text-align:left">Adds a button to the resulting message of this embed. Works the same as
+        <a
+        href="functions.md#button">button</a>function.</td>
+      <td style="text-align:left">-</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>withDate(Date)</code>
@@ -668,7 +699,7 @@ This data type describes the custom command message arguments.‌
 | Property | Type | Description |
 | :--- | :--- | :--- |
 | `value` | [String](syntax/expressions.md#literals)​ | Original message string of command invocation. |
-| `args` | [List](syntax/expressions.md#lists)&lt;[String](syntax/expressions.md#literals)&gt; | List of the arguments extracted from the string and split by whitespace |
+| `args` | [List](syntax/expressions.md#lists)&lt;[String](syntax/expressions.md#literals)&gt; | List of the arguments extracted from the string and split by whitespace. |
 
 #### Methods <a id="funkcii"></a>
 

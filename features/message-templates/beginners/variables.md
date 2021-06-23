@@ -152,7 +152,7 @@ These variables are used in Auto-Moderation Filters for violation notifications.
 | :--- | :--- |
 | `{{infraction.linkUrl}}` | Detected link |
 | `{{infraction.inviteCode}}` | Detected invite code |
-| `{{infraction.inviteUrl}}` | Detected invite link `discord.gg/<код>` |
+| `{{infraction.inviteUrl}}` | Detected invite link `discord.gg/<code>` |
 
 #### Bad Words Filter <a id="filtr-plokhie-slova"></a>
 

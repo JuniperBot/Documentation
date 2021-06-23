@@ -50,19 +50,19 @@ The `return` command will interrupt template evaluation with an error returned t
 {% return 'Some error just happened!' %}
 ```
 
-You can pass an [Embed]() instead of string \(but keep in mind that you shouldn't send it using its `send` function\).
+You can pass an [Embed](types.md#embed) instead of string \(but keep in mind that you shouldn't send it using its `send` function\).
 
 ### `require`
 
 The `require` is an extension for `return` command:
 
 ```csharp
-{% require выражение returning 'Some error just happened!' %}
+{% require expression returning 'Some error just happened!' %}
 ```
 
 This command will only return an error if result of evaluating the expression is `false` according the `Type Convert`.
 
-You can pass an [Embed]() instead of string \(but keep in mind that you shouldn't send it using its `send` function\).
+You can pass an [Embed](types.md#embed) instead of string \(but keep in mind that you shouldn't send it using its `send` function\).
 
 ### `use`
 

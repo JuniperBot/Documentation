@@ -123,7 +123,7 @@ The previous template will render as `Hello world` which is the result of capita
 The `format` function receives an arbitrary number of arguments where the first is the template parameter \(converted to a String\) and the remaining arguments is provided as the format model values. Mode detailed information about format you can find on the [Internet](https://dzone.com/articles/java-string-format-examples).
 
 ```csharp
-{{ format('hello %s! %d', 'world', 123) }}
+{{ format('hello %s! %s', 'world', 123) }}
 ```
 
 The previous example will print `hello world! 123`.
@@ -434,7 +434,7 @@ The previous example will produce `[1, 2, 3]`.
 
 ### `date`
 
-The `date` functionта formats the date specified in the format you need. It accepts up to three arguments:
+The `date` function formats the date specified in the format you need. It accepts up to three arguments:
 
 * Date object or string `'now'` to format current date;
 * \(Optional\) Date format based on Java `SimpleDateFormat`. Check [this](http://www.sdfonlinetester.info/) page for more details about the format;
@@ -453,7 +453,7 @@ The previous example will produce `Tue, 22 Jun 2021 04:04:05 MSK`.
 
 ### `reaction`
 
-The `reaction` function will add a specified reaction to resulting message It accepts one argument of reaction in the following formats:
+The `reaction` function will add a reaction with the specified emotion to resulting message. It accepts one argument of emotion in the following formats:
 
 * `🦊` - Unicode-character;
 * `:fox_face:` - name of emotion including default and server's emojis;
@@ -466,4 +466,17 @@ The `reaction` function will add a specified reaction to resulting message It ac
 {% hint style="success" %}
 Only one reaction can be added to the message. Servers with [active bonuses](https://juniper.bot/donate) can add up to 5 reactions.
 {% endhint %}
+
+### `button`
+
+The `button` function will add a specified button to resulting message. It accepts four string arguments.
+
+* Type is the first argument \(Currently only `LINK` is supported\);
+* The second argument is link;
+* The third argument is content;
+* \(Optional\) The fourth argument is emote.
+
+```csharp
+{% do button('LINK', 'https://juniper.bot/', 'Website', '🦊') %}
+```
 
