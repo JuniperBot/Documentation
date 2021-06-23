@@ -4,6 +4,52 @@ description: The latest JuniperBot changes are described here.
 
 # Changelog
 
+### Version 10.0
+
+#### Slash Commands
+
+Integration with the Slash Commands Discord feature:
+
+* Every build-id command is not available as Slash-Command \(except Forest Fuss that requires a full update, we will do it eventually\);
+* Slash Command can be disabled and enabled globally in common settings \(disabled by default\);
+* Every Slash Command can be disabled individually letting it work in classic mode;
+* Using Slash Commands, all error messages are now ephemeral \(only you can see\), no more mess in the channels;
+* Slash Commands fully following the access rights of the commands \(there are some catches, check documentation\);
+
+#### Buttons
+
+Integration with the Message Component Discord feature - Buttons:
+
+* Music playback message;
+* Every pageable list \(leaders, covid, warngs, etc\);
+* Every choosing message \(commands `ютуб/youtube` и `викифур/wikifur`\);
+* Added a new function to message templates to add a link buttons;
+* Reset warnings command.
+
+#### Music
+
+* Two new actions has been added to playback message:
+  * Return to the previous track;
+  * Queue list \(ephemeral message that only you can see\);
+
+#### Moderation
+
+* Mute system stability improvements;
+* Command `мьют/mute` now reports about possible issues with muted role;
+* Command `цвет/color` now reports about possible issues with color roles and manages them correctly;
+* Command `слоумод/slowmode` now uses duration syntax \(10sec, 15min, 3h, etc\);
+* "Repeated Text" Auto-Moderation filter now takes stickers into account;
+* Fixed an issue with clearing left member messages;
+
+#### Other
+
+* Added an option to reminders to auto-publish the reminder in news channel;
+* Command access errors are more detailed now and reports that exact member's roles are missing or ignored;
+* Fixed a voice channel mentions in audit messages;
+* VK.com subscriptions will now have an avatar by default;
+* Legacy message templates \(single brackets\) aren't supported anymore;
+* Some internal fixes and improvements.
+
 ### Version 9.24
 
 * Implemented a more reliable way to notify about server boosting. Discord's own boost notification must be enabled in order to get this notification working \(it is possible to delete it though\);
