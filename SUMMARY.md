@@ -37,7 +37,6 @@
     * [Типы данных](features/message-templates/advanced/types.md)
     * [Переменные](features/message-templates/advanced/variables.md)
   * [Полезные примеры](features/message-templates/examples.md)
-* [Переменные шаблонов \(устарело\)](features/template-variables.md)
 * [Лесная Возня](features/forest-fuss.md)
 * [Калькулятор](features/calculator.md)
 
