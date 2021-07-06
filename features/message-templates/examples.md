@@ -156,6 +156,8 @@ Keep in mind that you can only use up to 5 attributes in Message Template.
     .withFooter('Huff, bye!', member.avatarUrl)
     .addField('First field', 'Ah! A value of the first field', true)
     .addField('Second field', 'Something here too', true)
+    .addReaction(':fox_face:')
+    .addButton('LINK', 'https://juniper.bot/', 'Website', '🦊')
     .send()
 %}
 ```
